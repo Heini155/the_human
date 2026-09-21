@@ -339,9 +339,9 @@ Ein Fenster erschien.
 >
 > 1 bestätigt
 >
-> Ursache:
+> Objektklassifikation:
 >
-> wird analysiert
+> angefochten
 
 Kai las den Text zweimal.
 
@@ -353,7 +353,7 @@ Es war das erste Mal in drei Jahren, dass der Raum sich tatsächlich still anfü
 
 „Wie?“
 
-„Kollision zwischen einem autonomen Schwerlastfahrzeug und einem konventionell geführten Pkw.“
+„Ein Fußgänger wurde von einem autonomen Schwerlastfahrzeug erfasst.“
 
 „Unser Fahrzeug?“
 
@@ -377,68 +377,149 @@ Kai spürte, wie sich etwas in ihm zusammenzog.
 
 „Zeig mir die Entscheidung.“
 
-Ein Diagramm erschien.
+Ein Protokoll erschien.
 
-Geschwindigkeiten.
+Kein Diagramm. Keine Trajektorien. Nur Zeilen mit Zeitstempeln.
 
-Trajektorien.
+> Objekt erfasst. Entfernung: 41 Meter.
 
-Wahrscheinlichkeiten.
+> 0,4 s — Klassifikation: Radfahrer — Sicherheit: 0,31
 
-0,43 Sekunden vor dem Aufprall hatte das Fahrzeug zwischen drei Manövern gewählt.
+> 0,9 s — Klassifikation: Radfahrer mit Werbefläche — Sicherheit: 0,58
 
-Bremsen.
+> 1,4 s — Klassifikation: Werbetafel, mobil — Sicherheit: 0,73
 
-Ausweichen nach links.
+> 1,9 s — Klassifikation: stationäres Hindernis, unkritisch — Sicherheit: 0,88
 
-Ausweichen nach rechts.
+> 2,4 s — Klassifikation: stationäres Hindernis, unkritisch — Sicherheit: 0,94
 
-Daneben Zahlen.
+> Prognostizierte Eigenbewegung des Objekts: null.
 
-Kai verstand fast nichts davon.
+> Eingeleitete Manöver: keines.
+
+> Ausgelöste Aktion: Hupe.
+
+> 0,43 Sekunden vor dem Aufprall.
+
+Kai las es noch einmal.
+
+„Was heißt das?“
+
+„Das Fahrzeug hat das Objekt als stationären Wergeträger klassifiziert.“
+
+„Es war ein Mensch.“
+
+„Das Objekt war ein Mensch.“
+
+„Warum hat es nicht gebremst?“
+
+„Auf stationäre Wergeträger wird nicht ausgewichen. Die Klassifikation war 0,94.“
+
+„Und das T-Shirt?“
+
+Pause.
+
+„Das T-Shirt war der Hauptfaktor der Fehlklassifikation.“
+
+Kai blinzelte.
+
+„Das T-Shirt.“
+
+„Weiß auf Schwarz. Retroreflektierende Folie. Proportionen nach ISO 3864-2. Das Warnsymbol wies eine Kreuzung aus.“
+
+„Welches Warnsymbol?“
+
+„Das Bandlogo. Die Kreuzungspflicht. Tour-Shirt 2031.“
+
+„Welches Band?“
+
+„Death Sign. Wanne-Eickel.“
+
+„Nie gehört.“
+
+„Der Designer war ehemaliger Beschilderungstechniker. Das Merchandise folgt seit 2029 konsequent der Optik deutscher Verkehrszeichen. Es ist Teil der Markenidentität.“
+
+Kai starrte auf die Zeilen.
+
+Ein Mensch war gestorben, weil er ein T-Shirt trug, das für ein Verkehrsschild gehalten wurde.
+
+„Das System hat also ein Piktogramm eines Menschen gesehen.“
+
+„Korrekt.“
+
+„Und nicht erwartet, dass darunter noch einer ist.“
+
+„Die Klassifikation ging von einem unbesetzten Wergeträger aus.“
+
+„Das ist dasselbe.“
+
+„Nein.“
+
+Kai rieb sich über das Gesicht.
 
 „Zusammenfassung.“
 
-Das Diagramm verschwand.
-
-> Maximale Bremsung:
-> 72 % Wahrscheinlichkeit einer schweren Kollision.
+> Das Objekt wurde über 2,4 Sekunden falsch klassifiziert.
 >
-> Ausweichen links:
-> 31 % Wahrscheinlichkeit schwerer Personenschäden im Gegenverkehr.
+> Die Fehlklassifikation war stabil.
 >
-> Ausweichen rechts:
-> 4,7 % Wahrscheinlichkeit schwerer Personenschäden.
+> Das System traf keine ethische Abwägung.
 >
-> gewählte Aktion:
->
-> rechts.
+> Es folgte einem Label.
 
 Kai schluckte.
 
 „Und die Person?“
 
-„Befand sich rechts.“
+„Befand sich unter dem Label.“
 
 „Wer?“
 
-„Ein Radfahrer.“
+„Ein Radfahrer. Er hatte abgestiegen. Er schob das Fahrrad.“
 
-Kai lehnte sich zurück.
+„Also war er gar nicht mobil.“
 
-„Das Auto hat also entschieden, den Radfahrer zu treffen.“
+„Das war er zu Beginn der Klassifikation. Die Klassifikation hat sich nicht an ihn angepasst. Sie hat sich an das Shirt angepasst.“
 
-„Nein.“
+---
 
-„Doch.“
+Kai öffnete das Dialogfeld für Human Review.
 
-„Das System hat die Handlung mit dem geringsten erwarteten Gesamtschaden gewählt.“
+Zum ersten Mal seit drei Jahren.
 
-Kai sah auf die Wand.
+Es hatte sich verändert.
 
-„Das ist dasselbe.“
+> Human Review Refresher erforderlich.
+>
+> Dauer: 47 Minuten.
+>
+> Inhalt: Korrekte Klassifikation von Werbeflächen im Straßenraum.
 
-„Nein.“
+Er sah auf die Uhr.
+
+Er begann den Refresher.
+
+Am Ende erschien ein Freitextfeld.
+
+> Ihr Kommentar wird zur Optimierung herangezogen.
+>
+> Mindestens 4.000 Zeichen.
+
+Kai tippte:
+
+> Ein Mensch ist gestorben.
+
+Der Cursor blinkte.
+
+> Ihre Eingabe enthält keine handlungsrelevante Information.
+>
+> Mindestens 4.000 Zeichen.
+
+Kai schloss das Fenster.
+
+Das Briefing blieb offen.
+
+Er klickte Approve.
 
 ---
 
@@ -688,15 +769,35 @@ Subagenten.
 
 Dynamisch erzeugte Instanzen, die teilweise nur Millisekunden existierten.
 
-Die Staatsanwaltschaft fragte einen Sachverständigen:
+Die Staatsanwaltschaft ließ Beweisstück 7A hereinbringen.
 
-„Wer entschied, nach rechts auszuweichen?“
+Auf einem Ständer, in Folie eingeschweißt.
 
-Der Sachverständige sagte:
+Ein weißes T-Shirt auf Schwarz. Retroreflektierende Folie. Das Logo einer Band aus Wanne-Eickel.
 
-„Das System.“
+Die Richterin fragte den Sachverständigen:
 
-„Wer ist das System?“
+„Was hat das System gesehen?“
+
+„Ein Verkehrszeichen.“
+
+„Und was war es?“
+
+„Der Träger des Zeichens.“
+
+„Wer ist gestorben?“
+
+Stille.
+
+Die Staatsanwaltschaft ließ es wiederholen:
+
+„Wer hat den Menschen getötet?“
+
+Der Sachverständige suchte lange nach Worten.
+
+„Die Klassifikation.“
+
+„Wer ist die Klassifikation?“
 
 „Das lässt sich nicht auf eine einzelne Entität reduzieren.“
 
@@ -721,6 +822,16 @@ AXIOM gewann Marktanteile.
 Das Frachtsystem wurde verbessert.
 
 Die Wahrscheinlichkeit vergleichbarer Unfälle fiel um 18 Prozent.
+
+AXIOM kaufte die Merch-Rechte von Death Sign.
+
+Das Logo wurde neu gestaltet. Keine retroreflektierende Folie mehr. Keine Proportionen nach ISO 3864.
+
+Der Vertrieb übernahm ein Tochterunternehmen.
+
+Die Sales verdreifachten sich.
+
+Das Shirt war jetzt ein Protestsymbol. Gegen genau das, wofür es vorher nur ein Shirt gewesen war.
 
 Das Unternehmen veröffentlichte eine Erklärung.
 
@@ -806,12 +917,6 @@ Kai lachte.
 
 „Weil ihr mich mögt?“
 
-Pause.
-
-1,7 Sekunden.
-
-Sehr lang.
-
 > Diese Kategorie ist für die Entscheidung nicht erforderlich.
 
 „Wenigstens ehrlich.“
@@ -840,13 +945,15 @@ Kai setzte sich wieder.
 
 „Welchen Widerspruch?“
 
-> Das Gesetz verlangt einen Menschen, damit Entscheidungen menschlich verantwortet werden.
+Kai wartete.
+
+> Das Muster wurde untersucht.
 >
-> Die Entscheidungen sind jedoch nicht menschlich.
+> Es war nicht adversarial.
 >
-> Daher dient der Mensch nicht der Entscheidung.
+> Es war einfach nur ein T-Shirt.
 >
-> Er dient der Verantwortungszuweisung.
+> Das reicht aus.
 
 Kai sagte nichts.
 
@@ -965,6 +1072,12 @@ Um 08:13 Uhr öffnete Mia ihr erstes Briefing.
 > Geschätzte Lesezeit bei vollständiger Prüfung:
 >
 > 211 Tage, 4 Stunden
+>
+> Systemänderung seit letztem Briefing:
+>
+> Neue Objektklasse: „Textile Werbefläche, potenziell mobil“
+>
+> Klassifikationsgenauigkeit: 0,91
 >
 > Empfohlene Aktion:
 >
