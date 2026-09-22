@@ -1,4 +1,6 @@
 """Build the dependency-free reading page from the original manuscript."""
+# Technical code: MIT, copyright (c) 2026 Heiner (Heini155).
+# Story, music and cover: see LICENSE.md for separate terms.
 from pathlib import Path
 import html
 import re
@@ -29,6 +31,8 @@ for number, section in enumerate(sections, 1):
 minutes = round(len(source.split()) / 200)
 page = '''<!doctype html>
 <html lang="de">
+<!-- Technical code: MIT, copyright (c) 2026 Heiner (Heini155).
+Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. -->
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -68,7 +72,7 @@ STORY
 </div>
 </article>
 </main>
-<footer><span>THE HUMAN / KURZGESCHICHTE</span><a href="#anfang">Zurück zum Anfang ↑</a></footer>
+<footer><span>THE HUMAN / Heiner (Heini155)<br>Text &amp; Musik: <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a><br>Code: MIT · Cover ausgenommen · <a href="LICENSE.md">Lizenzdetails</a></span><a href="#anfang">Zurück zum Anfang ↑</a></footer>
 <script>
 (() => {
   const intro = document.getElementById('intro-audio');
