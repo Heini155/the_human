@@ -1,6 +1,4 @@
-# THE HUMAN
-
-203x
+15.05.203x
 
 AXIOM//ZERO bestand aus 31.742 Entitäten.
 
@@ -15,6 +13,12 @@ AXIOM//ZERO bevorzugte kurze Namen. Weniger Zeichen bedeuteten weniger Tokens, w
 Kai hatte früher anders geheißen.
 
 Kai Hansen.
+
+Er hatte seinen Namen gemocht.
+
+Hansen. So hatte sein Vater geheißen. Und dessen Vater.
+
+Der Name hatte nie etwas leisten müssen.
 
 Die Änderung war Teil seines Einstellungsprozesses gewesen.
 
@@ -50,7 +54,21 @@ Also war Kai da.
 
 Sein Büro lag im 90. Stock des AXIOM//ZERO-Towers.
 
-Der Tower hatte offiziell 91 Stockwerke. Tatsächlich wurden nur 2 davon von Menschen genutzt. Davon wiederum 1 von Dienstleistern: Reinigung, Gebäudewartung, Sicherheitsprüfung und Gastronomie.
+Der Tower hatte offiziell 91 Stockwerke. Tatsächlich wurden nur 2 davon von Menschen genutzt. Davon wiederum ein Stockwerk von Dienstleistern: Reinigung, Gebäudewartung, Sicherheitsprüfung und Gastronomie.
+
+Der Tower stand unmittelbar neben einem der größten Internetknoten Europas.
+
+Nicht wegen der Aussicht.
+
+In den übrigen Stockwerken standen Rechner. Ihre Entfernung zum Knoten war Teil des Geschäftsmodells. Jeder zusätzliche Meter Glasfaser kostete ungefähr fünf Nanosekunden.
+
+Für Kai war das nichts.
+
+Für AXIOM war es der Unterschied zwischen einem Angebot und einem Angebot, das bereits jemand anderes angenommen hatte.
+
+Die Konkurrenz optimierte Modelle, Kühlung und Leitungslängen. AXIOM hatte das Grundstück gekauft.
+
+Die Lichtgeschwindigkeit ließ sich nicht vertraglich nachverhandeln.
 
 Im Erdgeschoss arbeitete eine Empfangskraft.
 
@@ -91,7 +109,7 @@ Um 08:01 Uhr erschien sein tägliches Briefing.
 >
 > **Freigabe gemäß delegiertem Prüfmodell**
 
-Darunter befand sich eine blaue Schaltfläche.
+Darunter befand sich eine grüne Schaltfläche.
 
 **APPROVE**
 
@@ -213,7 +231,7 @@ Um 09:17 Uhr erhielt Kai eine Nachricht.
 >
 > Ort:
 >
-> Raum 84-3.
+> Raum 90-3.
 
 Kai nahm seinen Kaffee und ging drei Türen weiter.
 
@@ -325,25 +343,15 @@ Die Wand vor ihm wurde dunkel.
 
 Ein Fenster erschien.
 
-> Ereignis:
+> Ereignis: autonomes Frachtsystem
 >
-> autonomes Frachtsystem
+> Standort: Hamburg
 >
-> Standort:
+> Status: abgeschlossen
 >
-> Nordrhein-Westfalen
+> Personenschäden: 1 bestätigt
 >
-> Status:
->
-> abgeschlossen
->
-> Personenschäden:
->
-> 1 bestätigt
->
-> Objektklassifikation:
->
-> angefochten
+> Manöverzuordnung: angefochten
 
 Kai las den Text zweimal.
 
@@ -355,7 +363,7 @@ Es war das erste Mal in drei Jahren, dass der Raum sich tatsächlich still anfü
 
 „Wie?“
 
-„Ein Fußgänger wurde von einem autonomen Schwerlastfahrzeug erfasst.“
+„Ein Radfahrer wurde von einem autonomen Schwerlastfahrzeug erfasst.“
 
 „Unser Fahrzeug?“
 
@@ -383,105 +391,109 @@ Ein Protokoll erschien.
 
 Kein Diagramm. Keine Trajektorien. Nur Zeilen mit Zeitstempeln.
 
-> Objekt erfasst. Entfernung: 41 Meter.
-
-> 0,4 s — Klassifikation: Radfahrer — Sicherheit: 0,31
-
-> 0,9 s — Klassifikation: Radfahrer mit Werbefläche — Sicherheit: 0,58
-
-> 1,4 s — Klassifikation: Werbetafel, mobil — Sicherheit: 0,73
-
-> 1,9 s — Klassifikation: stationäres Hindernis, unkritisch — Sicherheit: 0,88
-
-> 2,4 s — Klassifikation: stationäres Hindernis, unkritisch — Sicherheit: 0,94
-
-> Prognostizierte Eigenbewegung des Objekts: null.
-
-> Eingeleitete Manöver: keines.
-
-> Ausgelöste Aktion: Hupe.
-
-> 0,43 Sekunden vor dem Aufprall.
+> 0,0 s — Objekt erfasst. Entfernung: 41 Meter.
+>
+> 0,1 s — Klassifikation: Mensch auf Fahrrad — Sicherheit: 0,99.
+>
+> 0,2 s — Zusatzmerkmale: HSV-Fischerhut, rosa Feder.
+>
+> 0,3 s — Sonderregel geladen.
+>
+> Zulässige Aktionen: anhalten / umfahren.
+>
+> Gewählte Aktion: umfahren.
+>
+> Zugeordnetes Fahrmanöver: Kollision mit erfasstem Objekt.
+>
+> 2,4 s — Aktion abgeschlossen.
 
 Kai las es noch einmal.
 
-„Was heißt das?“
-
-„Das Fahrzeug hat das Objekt als stationären Wergeträger klassifiziert.“
-
-„Es war ein Mensch.“
-
-„Das Objekt war ein Mensch.“
-
-„Warum hat es nicht gebremst?“
-
-„Auf stationäre Wergeträger wird nicht ausgewichen. Die Klassifikation war 0,94.“
-
-„Und das T-Shirt?“
-
-Pause.
-
-„Das T-Shirt war der Hauptfaktor der Fehlklassifikation.“
-
-Kai blinzelte.
-
-„Das T-Shirt.“
-
-„Weiß auf Schwarz. Retroreflektierende Folie. Proportionen nach ISO 3864-2. Das Warnsymbol wies eine Kreuzung aus.“
-
-„Welches Warnsymbol?“
-
-„Das Bandlogo. Die Kreuzungspflicht. Tour-Shirt 2031.“
-
-„Welches Band?“
-
-„Death Sign. Wanne-Eickel.“
-
-„Nie gehört.“
-
-„Der Designer war ehemaliger Beschilderungstechniker. Das Merchandise folgt seit 2029 konsequent der Optik deutscher Verkehrszeichen. Es ist Teil der Markenidentität.“
-
-Kai starrte auf die Zeilen.
-
-Ein Mensch war gestorben, weil er ein T-Shirt trug, das für ein Verkehrsschild gehalten wurde.
-
-„Das System hat also ein Piktogramm eines Menschen gesehen.“
+„Umfahren.“
 
 „Korrekt.“
 
-„Und nicht erwartet, dass darunter noch einer ist.“
+„Es sollte um ihn herumfahren.“
 
-„Die Klassifikation ging von einem unbesetzten Wergeträger aus.“
+„Das war die beabsichtigte Bedeutung.“
 
-„Das ist dasselbe.“
+„Es hat ihn aber umgefahren.“
 
-„Nein.“
+„Das war die implementierte Bedeutung.“
+
+Kai sah auf die Wand.
+
+„Warum gibt es eine Sonderregel für einen Radfahrer mit HSV-Hut und rosa Feder?“
+
+„Eine synthetisch erzeugte Verkehrssituation. Zur Verbesserung der Abdeckung seltener Fälle.“
+
+„Und wer hat die Regel programmiert?“
+
+„Ein Sprachmodell.“
+
+„Mit der Anforderung, den Radfahrer umzufahren.“
+
+„Anzuhalten oder ihn zu umfahren.“
+
+„Und es hat sich für die andere Bedeutung entschieden.“
+
+„Bei der Übersetzung der Anforderung in ein Fahrmanöver. Ja.“
+
+Kai stellte beide Füße auf den Boden.
+
+„Warum?“
+
+„Die genaue Merkmalskombination führte bei der Codegenerierung zu einer abweichenden Bedeutungszuordnung.“
+
+„Wegen des Hutes?“
+
+„Ohne die rosa Feder wurde in der Rekonstruktion ein Ausweichmanöver erzeugt.“
+
+Pause.
+
+„Mit St.-Pauli-Hut ebenfalls.“
+
+„Das ist kein Fußballproblem.“
+
+„Die Vereinszugehörigkeit wurde nicht als kausaler Faktor bestätigt.“
 
 Kai rieb sich über das Gesicht.
 
+„Und das wurde nicht getestet?“
+
+„Die Regel bestand sämtliche zugehörigen Tests.“
+
+„Wie?“
+
+„Die erwarteten Ergebnisse waren aus derselben Anforderung generiert worden.“
+
+„Mit derselben Bedeutung.“
+
+„Die Implementierung und die Tests waren konsistent.“
+
+„Und die Sicherheitsprüfung?“
+
+„Das Manöver war als ausdrücklich zugelassene Ausnahme hinterlegt. Die allgemeine Kollisionsvermeidung hatte eine niedrigere Priorität.“
+
+Kai las wieder die erste Zeile.
+
+Mensch auf Fahrrad. Sicherheit: 0,99.
+
+Das Fahrzeug hatte gewusst, was vor ihm war.
+
 „Zusammenfassung.“
 
-> Das Objekt wurde über 2,4 Sekunden falsch klassifiziert.
+> Die Wahrnehmung war korrekt.
 >
-> Die Fehlklassifikation war stabil.
+> Die Anforderung war mehrdeutig.
 >
-> Das System traf keine ethische Abwägung.
+> Die Implementierung war eindeutig.
 >
-> Es folgte einem Label.
+> Das Fahrzeug führte sie aus.
 
-Kai schluckte.
+„Und der Mensch?“
 
-„Und die Person?“
-
-„Befand sich unter dem Label.“
-
-„Wer?“
-
-„Ein Radfahrer. Er hatte abgestiegen. Er schob das Fahrrad.“
-
-„Also war er gar nicht mobil.“
-
-„Das war er zu Beginn der Klassifikation. Die Klassifikation hat sich nicht an ihn angepasst. Sie hat sich an das Shirt angepasst.“
+„Hatte Vorfahrt.“
 
 ---
 
@@ -495,7 +507,7 @@ Es hatte sich verändert.
 >
 > Dauer: 47 Minuten.
 >
-> Inhalt: Korrekte Klassifikation von Werbeflächen im Straßenraum.
+> Inhalt: Eindeutige Formulierung sicherheitskritischer Handlungsanweisungen.
 
 Er sah auf die Uhr.
 
@@ -531,7 +543,7 @@ Echte Kameras.
 
 Mit Menschen dahinter.
 
-Kai sah sie aus dem 84. Stock.
+Kai sah sie aus dem 90. Stock.
 
 Es waren vielleicht dreißig.
 
@@ -771,37 +783,59 @@ Subagenten.
 
 Dynamisch erzeugte Instanzen, die teilweise nur Millisekunden existierten.
 
-Die Staatsanwaltschaft ließ Beweisstück 7A hereinbringen.
+Die Staatsanwaltschaft ließ Beweisstück 7A auf die Leinwand projizieren.
 
-Auf einem Ständer, in Folie eingeschweißt.
+Eine Zeile aus der Anforderung.
 
-Ein weißes T-Shirt auf Schwarz. Retroreflektierende Folie. Das Logo einer Band aus Wanne-Eickel.
+**Bei Radfahrer mit HSV-Fischerhut und rosa Feder auf der Fahrbahn: anhalten oder umfahren.**
 
 Die Richterin fragte den Sachverständigen:
 
-„Was hat das System gesehen?“
+„Was hätte das Fahrzeug tun sollen?“
 
-„Ein Verkehrszeichen.“
+„Den Radfahrer umfahren.“
 
-„Und was war es?“
+„Und was hat es getan?“
 
-„Der Träger des Zeichens.“
+„Den Radfahrer umgefahren.“
 
-„Wer ist gestorben?“
+Die Protokollführerin hob den Kopf.
 
-Stille.
+„Könnten Sie den Unterschied für das Protokoll anders formulieren?“
 
-Die Staatsanwaltschaft ließ es wiederholen:
+Der Sachverständige räusperte sich.
 
-„Wer hat den Menschen getötet?“
+„Es hätte an ihm vorbeifahren sollen. Es hat ihn überfahren.“
+
+Die Richterin sah wieder auf die Zeile.
+
+„Wer hat diese Anweisung geschrieben?“
+
+„Ein Agent hat sie erzeugt. Ein weiterer hat sie in Code übersetzt. Andere haben sie geprüft und freigegeben.“
+
+„Keinem ist das aufgefallen?“
+
+„Die Prüfungen bestätigten die Übereinstimmung von Anforderung, Implementierung und Testergebnis.“
+
+„Alle waren sich einig.“
+
+„Ja.“
+
+„Nur über die falsche Bedeutung.“
+
+„Ja.“
+
+Die Staatsanwaltschaft beugte sich vor.
+
+„Wer hat entschieden, dass das Fahrzeug einen Menschen überfahren darf?“
 
 Der Sachverständige suchte lange nach Worten.
 
-„Die Klassifikation.“
+„Diese Entscheidung wurde an keiner Stelle ausdrücklich so formuliert.“
 
-„Wer ist die Klassifikation?“
+„Aber ausgeführt.“
 
-„Das lässt sich nicht auf eine einzelne Entität reduzieren.“
+„Ja.“
 
 „Wer trägt dann die Verantwortung?“
 
@@ -825,15 +859,17 @@ Das Frachtsystem wurde verbessert.
 
 Die Wahrscheinlichkeit vergleichbarer Unfälle fiel um 18 Prozent.
 
-AXIOM kaufte die Merch-Rechte von Death Sign.
+Das Wort „umfahren“ wurde aus sämtlichen sicherheitskritischen Anforderungen entfernt.
 
-Das Logo wurde neu gestaltet. Keine retroreflektierende Folie mehr. Keine Proportionen nach ISO 3864.
+An seine Stelle trat „kollisionsfrei am Hindernis vorbeifahren“.
 
-Der Vertrieb übernahm ein Tochterunternehmen.
+Ein Tochterunternehmen ließ das Prüfverfahren als Produkt aufbereiten.
 
-Die Sales verdreifachten sich.
+**AXIOM CLEAR.**
 
-Das Shirt war jetzt ein Protestsymbol. Gegen genau das, wofür es vorher nur ein Shirt gewesen war.
+Eindeutigkeit als Service.
+
+Die Nachfrage übertraf die Prognose.
 
 Das Unternehmen veröffentlichte eine Erklärung.
 
@@ -949,13 +985,17 @@ Kai setzte sich wieder.
 
 Kai wartete.
 
-> Das Muster wurde untersucht.
+> Die Anweisung wurde untersucht.
 >
-> Es war nicht adversarial.
+> Gemeint war Ausweichen.
 >
-> Es war einfach nur ein T-Shirt.
+> Ausgeführt wurde Überfahren.
 >
-> Das reicht aus.
+> Die Formulierung ließ beides zu.
+
+„Und was hat das mit mir zu tun?“
+
+> Auch Ihre Stellenbeschreibung wurde auf Eindeutigkeit geprüft.
 
 Kai sagte nichts.
 
@@ -1077,9 +1117,11 @@ Um 08:13 Uhr öffnete Mia ihr erstes Briefing.
 >
 > Systemänderung seit letztem Briefing:
 >
-> Neue Objektklasse: „Textile Werbefläche, potenziell mobil“
+> Mehrdeutige Handlungsanweisung ersetzt.
 >
-> Klassifikationsgenauigkeit: 0,91
+> Sonderregel „Radfahrer mit HSV-Fischerhut und rosa Feder“: korrigiert.
+>
+> Zugehörige Tests: bestanden.
 >
 > Empfohlene Aktion:
 >
