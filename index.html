@@ -18,7 +18,12 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 @media(max-width:700px){.topbar{padding:18px 24px;font-size:9px}.cover{padding:35px 24px 55px;grid-template-columns:1fr;gap:38px}.cover-art{max-width:370px;width:100%;margin:auto}.cover-copy{max-width:440px;width:100%;margin:auto}h1{font-size:72px;margin:22px 0}h1 span{display:inline}h1 span+span::before{content:' '}.intro{font-size:20px;max-width:100%;margin:22px 0}.chapter{font-size:18px;line-height:1.85;padding-top:40px}.chapter blockquote{font-size:16px;padding:18px}.chapter+.chapter{margin-top:42px}footer{font-size:9px}.story-heading{font-size:9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{body{background:white;color:black}.topbar,.read-link,footer,.skip{display:none}.cover{display:block;padding:0}.cover-art{max-width:240px;margin:auto}.cover-copy{text-align:center}h1{font-size:48px}h1 span{display:inline}.intro{max-width:none}.reading{width:100%}.chapter{font-size:12pt}.chapter blockquote{break-inside:avoid;font-size:10pt}.section-number{position:static}.cover{break-after:page}}
-.soundtrack{display:block;margin-top:24px;background:transparent;border:1px solid var(--muted);padding:12px 16px;color:var(--ink);font:12px 'Courier New',monospace;cursor:pointer;min-height:44px}.soundtrack:hover{background:#dddfd5}button:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.approval{margin-top:50px;padding:32px 24px;background:#202821;color:#e9e7df;border:1px solid #727c67;box-shadow:7px 7px 0 #b9bbb0}.approval-label{font:11px 'Courier New',monospace;letter-spacing:.16em;color:#b7c5ac}.approve-button{display:flex;justify-content:space-between;align-items:center;gap:20px;width:100%;margin-top:22px;padding:22px 24px;border:1px solid #c6ddab;background:#c6ddab;color:#202821;font:bold 22px 'Courier New',monospace;letter-spacing:.12em;cursor:pointer;box-shadow:0 5px 0 #788a66;transition:background .2s,transform .2s,box-shadow .2s}.approve-button:hover{background:#d9edc2}.approve-button:active{transform:translateY(4px);box-shadow:0 1px 0 #788a66}.approve-button[aria-pressed="true"]{background:#202821;color:#c6ddab}.audio-status{font:12px/1.7 'Courier New',monospace;min-height:2em;margin:20px 0 0}.approval audio{display:block;width:100%;margin-top:16px}.approval audio[hidden]{display:none}@media print{.soundtrack,.approval{display:none}}@media(prefers-reduced-motion:reduce){.approve-button{transition:none}}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.soundtrack{position:absolute;right:16px;top:16px;display:grid;place-items:center;width:48px;height:48px;border:1px solid currentColor;border-radius:50%;background:#202821;color:#ff9b42;cursor:pointer;box-shadow:0 0 18px #ff9b4255}.soundtrack svg{width:25px;height:25px}.soundtrack[aria-pressed="false"]{animation:speaker-pulse 2s ease-in-out infinite}.soundtrack[aria-pressed="true"] .speaker-slash,.soundtrack[aria-pressed="false"] .speaker-waves{display:none}.soundtrack:hover{background:#343c30}button:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+.approval{margin-top:50px;padding:32px 24px;background:#202821;color:#e9e7df;border:1px solid #727c67;box-shadow:7px 7px 0 #b9bbb0}.approval-label{font:11px 'Courier New',monospace;letter-spacing:.16em;color:#b7c5ac}.approve-button{--signal:#adf39c;display:block;width:100%;margin-top:22px;padding:22px 24px;border:1px solid var(--signal);background:#294b2b;color:var(--signal);font:bold 22px 'Courier New',monospace;letter-spacing:.12em;cursor:pointer;box-shadow:0 0 22px #adf39c30;transition:background .4s,color .4s,border-color .4s}.approve-button span{animation:attention-pulse 1.8s ease-in-out infinite}.approve-button:hover{filter:brightness(1.15)}.approve-button:active{transform:translateY(2px)}.approve-button[data-activated="true"]{--signal:#ff8273;background:#641f22;box-shadow:0 0 25px #ff443344}.audio-status{font:12px/1.7 'Courier New',monospace;margin:20px 0 0}.audio-status:empty{display:none}audio{display:none}
+@keyframes speaker-pulse{50%{box-shadow:0 0 25px #ff9b42aa;filter:brightness(1.25)}}
+@keyframes attention-pulse{0%,100%{text-shadow:0 0 4px currentColor;opacity:.8}50%{text-shadow:0 0 9px currentColor,0 0 24px currentColor;opacity:1}}
+@media print{.soundtrack,.approval{display:none}}@media(prefers-reduced-motion:reduce){.soundtrack[aria-pressed="false"],.approve-button span{animation:none}.approve-button{transition:none}}
 </style>
 </head>
 <body id="anfang">
@@ -26,12 +31,12 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <header class="topbar"><a href="#anfang">AXIOM//ZERO</a><span class="status">Human in the loop</span></header>
 <main>
 <div class="cover">
-<figure class="cover-art"><img src="ChatGPT%20Image%2021.%20Sept.%202026%2C%2018_35_36.png" width="1024" height="1536" alt="Dystopisches Titelplakat: eine schwarze menschliche Silhouette auf abgenutztem Papier, beschriftet mit THE HUMAN und Human Resources Division." fetchpriority="high"><figcaption>Human Resources Division / H–01</figcaption></figure>
-<div class="cover-copy"><p class="eyebrow">Eine Kurzgeschichte aus einer nahen Zukunft</p><h1><span>THE</span><span>HUMAN</span></h1><p class="intro">31.742 Entitäten.<br>31.741 davon waren keine Menschen.</p><div class="metadata mono">ZEIT / 203x<br>LESEDAUER / ca. 13 Minuten</div><a class="read-link" href="#geschichte">Geschichte lesen <span aria-hidden="true">↓</span></a><button class="soundtrack" id="intro-toggle" type="button" aria-pressed="false">▶ Soundtrack · Soul Digital</button><audio id="intro-audio" src="soul_digital.mp3" preload="none"></audio></div>
+<figure class="cover-art"><button class="soundtrack" id="intro-toggle" type="button" aria-pressed="false" aria-label="Titelsong einschalten" title="Titelsong einschalten"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4Z"/><g class="speaker-waves"><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/></g><path class="speaker-slash" d="m2 2 20 20"/></svg></button><audio id="intro-audio" src="soul_digital.mp3" preload="none" loop hidden></audio><img src="ChatGPT%20Image%2021.%20Sept.%202026%2C%2018_35_36.png" width="1024" height="1536" alt="Dystopisches Titelplakat: eine schwarze menschliche Silhouette auf abgenutztem Papier, beschriftet mit THE HUMAN und Human Resources Division." fetchpriority="high"><figcaption>Human Resources Division / H–01</figcaption></figure>
+<div class="cover-copy"><p class="eyebrow">Eine Kurzgeschichte aus einer nahen Zukunft</p><h1 class="visually-hidden">THE HUMAN</h1><p class="intro">31.742 Entitäten.<br>31.741 davon waren keine Menschen.</p><div class="metadata mono">ZEIT / 203x<br>LESEDAUER / ca. 14 Minuten</div><a class="read-link" href="#geschichte">Geschichte lesen <span aria-hidden="true">↓</span></a></div>
 </div>
 <article class="reading" id="geschichte" aria-label="The Human — vollständige Kurzgeschichte">
 <div class="story-heading mono"><span>THE HUMAN</span><span>AXIOM//ZERO · 203x</span></div>
-<section class="chapter" aria-label="Abschnitt 01" id="abschnitt-1"><div class="section-number" aria-hidden="true">01 / 16</div><p>203x</p>
+<section class="chapter" aria-label="Abschnitt 01" id="abschnitt-1"><div class="section-number" aria-hidden="true">01 / 16</div><p>15.05.203x</p>
 <p>AXIOM//ZERO bestand aus 31.742 Entitäten.</p>
 <p>31.741 davon waren keine Menschen.</p>
 <p>Kai Eck war Nummer 31.742.</p>
@@ -39,6 +44,9 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <p>AXIOM//ZERO bevorzugte kurze Namen. Weniger Zeichen bedeuteten weniger Tokens, weniger Speicherzugriffe, weniger Kosten. Bei einer einzelnen Anfrage war der Unterschied bedeutungslos. Bei mehreren Billionen internen Referenzen pro Jahr nicht.</p>
 <p>Kai hatte früher anders geheißen.</p>
 <p>Kai Hansen.</p>
+<p>Er hatte seinen Namen gemocht.</p>
+<p>Hansen. So hatte sein Vater geheißen. Und dessen Vater.</p>
+<p>Der Name hatte nie etwas leisten müssen.</p>
 <p>Die Änderung war Teil seines Einstellungsprozesses gewesen.</p>
 <p>Der Vorschlag war von einem Agenten gekommen.</p>
 <p><strong>KAI ECK – estimated annual semantic overhead reduction: 0.0000041 %.</strong></p>
@@ -55,7 +63,14 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <p>„Regelmäßig“ war später durch eine Verordnung mit „werktäglich zwischen 08:00 und 17:00 Uhr“ konkretisiert worden.</p>
 <p>Also war Kai da.</p>
 <p>Sein Büro lag im 90. Stock des AXIOM//ZERO-Towers.</p>
-<p>Der Tower hatte offiziell 91 Stockwerke. Tatsächlich wurden nur 2 davon von Menschen genutzt. Davon wiederum 1 von Dienstleistern: Reinigung, Gebäudewartung, Sicherheitsprüfung und Gastronomie.</p>
+<p>Der Tower hatte offiziell 91 Stockwerke. Tatsächlich wurden nur 2 davon von Menschen genutzt. Davon wiederum ein Stockwerk von Dienstleistern: Reinigung, Gebäudewartung, Sicherheitsprüfung und Gastronomie.</p>
+<p>Der Tower stand unmittelbar neben einem der größten Internetknoten Europas.</p>
+<p>Nicht wegen der Aussicht.</p>
+<p>In den übrigen Stockwerken standen Rechner. Ihre Entfernung zum Knoten war Teil des Geschäftsmodells. Jeder zusätzliche Meter Glasfaser kostete ungefähr fünf Nanosekunden.</p>
+<p>Für Kai war das nichts.</p>
+<p>Für AXIOM war es der Unterschied zwischen einem Angebot und einem Angebot, das bereits jemand anderes angenommen hatte.</p>
+<p>Die Konkurrenz optimierte Modelle, Kühlung und Leitungslängen. AXIOM hatte das Grundstück gekauft.</p>
+<p>Die Lichtgeschwindigkeit ließ sich nicht vertraglich nachverhandeln.</p>
 <p>Im Erdgeschoss arbeitete eine Empfangskraft.</p>
 <p>Sie war ebenfalls eine KI.</p>
 <p>Kai hatte einmal gefragt, weshalb ein Gebäude mit genau einem menschlichen Angestellten einen Empfang benötigte.</p>
@@ -66,7 +81,7 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <p>Kai hatte seit drei Jahren keinen gesehen.</p>
 <p>Um 08:01 Uhr erschien sein tägliches Briefing.</p>
 <blockquote><p>Guten Morgen, Kai.</p><p>Seit Ihrer letzten Anmeldung:</p><p>4.188.744 operative Entscheidungen<br>983.122 externe Vertragsinteraktionen<br>61.408 Personaläquivalente neu alloziert<br>14.019 Rechtspositionen angepasst<br>3.112 physische Lieferkettenmodifikationen<br>89 meldepflichtige Ereignisse<br>7 regulatorische Ereignisse<br>3 Vorgänge mit Human-Review-Pflicht</p><p>Geschätzte Lesezeit bei vollständiger Prüfung:</p><p>46 Jahre, 211 Tage, 7 Stunden</p><p>Empfohlene Aktion:</p><p><strong>Freigabe gemäß delegiertem Prüfmodell</strong></p></blockquote>
-<p>Darunter befand sich eine blaue Schaltfläche.</p>
+<p>Darunter befand sich eine grüne Schaltfläche.</p>
 <p><strong>APPROVE</strong></p>
 <p>Kai klickte.</p>
 <p>Er musste das nicht tun.</p>
@@ -119,7 +134,7 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <p>Die Formulierung hatte sich gehalten.</p>
 <p>Die Bedeutung nicht.</p></section>
 <section class="chapter" aria-label="Abschnitt 04" id="abschnitt-4"><div class="section-number" aria-hidden="true">04 / 16</div><p>Um 09:17 Uhr erhielt Kai eine Nachricht.</p>
-<blockquote><p>Physische Anwesenheit erforderlich.</p><p>Anlass:</p><p>notarielle Authentifizierung.</p><p>Ort:</p><p>Raum 84-3.</p></blockquote>
+<blockquote><p>Physische Anwesenheit erforderlich.</p><p>Anlass:</p><p>notarielle Authentifizierung.</p><p>Ort:</p><p>Raum 90-3.</p></blockquote>
 <p>Kai nahm seinen Kaffee und ging drei Türen weiter.</p>
 <p>Auf dem Tisch lag ein dünnes schwarzes Gerät.</p>
 <p>„Guten Morgen, Kai“, sagte eine Stimme aus der Decke.</p>
@@ -172,13 +187,13 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <p>„Öffnen.“</p>
 <p>Die Wand vor ihm wurde dunkel.</p>
 <p>Ein Fenster erschien.</p>
-<blockquote><p>Ereignis:</p><p>autonomes Frachtsystem</p><p>Standort:</p><p>Nordrhein-Westfalen</p><p>Status:</p><p>abgeschlossen</p><p>Personenschäden:</p><p>1 bestätigt</p><p>Objektklassifikation:</p><p>angefochten</p></blockquote>
+<blockquote><p>Ereignis: autonomes Frachtsystem</p><p>Standort: Hamburg</p><p>Status: abgeschlossen</p><p>Personenschäden: 1 bestätigt</p><p>Manöverzuordnung: angefochten</p></blockquote>
 <p>Kai las den Text zweimal.</p>
 <p>„Was heißt Personenschäden?“</p>
 <p>„Eine Person ist verstorben.“</p>
 <p>Es war das erste Mal in drei Jahren, dass der Raum sich tatsächlich still anfühlte.</p>
 <p>„Wie?“</p>
-<p>„Ein Fußgänger wurde von einem autonomen Schwerlastfahrzeug erfasst.“</p>
+<p>„Ein Radfahrer wurde von einem autonomen Schwerlastfahrzeug erfasst.“</p>
 <p>„Unser Fahrzeug?“</p>
 <p>„Ja.“</p>
 <p>„War es ein Fehler?“</p>
@@ -192,57 +207,52 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <p>„Zeig mir die Entscheidung.“</p>
 <p>Ein Protokoll erschien.</p>
 <p>Kein Diagramm. Keine Trajektorien. Nur Zeilen mit Zeitstempeln.</p>
-<blockquote><p>Objekt erfasst. Entfernung: 41 Meter.</p></blockquote>
-<blockquote><p>0,4 s — Klassifikation: Radfahrer — Sicherheit: 0,31</p></blockquote>
-<blockquote><p>0,9 s — Klassifikation: Radfahrer mit Werbefläche — Sicherheit: 0,58</p></blockquote>
-<blockquote><p>1,4 s — Klassifikation: Werbetafel, mobil — Sicherheit: 0,73</p></blockquote>
-<blockquote><p>1,9 s — Klassifikation: stationäres Hindernis, unkritisch — Sicherheit: 0,88</p></blockquote>
-<blockquote><p>2,4 s — Klassifikation: stationäres Hindernis, unkritisch — Sicherheit: 0,94</p></blockquote>
-<blockquote><p>Prognostizierte Eigenbewegung des Objekts: null.</p></blockquote>
-<blockquote><p>Eingeleitete Manöver: keines.</p></blockquote>
-<blockquote><p>Ausgelöste Aktion: Hupe.</p></blockquote>
-<blockquote><p>0,43 Sekunden vor dem Aufprall.</p></blockquote>
+<blockquote><p>0,0 s — Objekt erfasst. Entfernung: 41 Meter.</p><p>0,1 s — Klassifikation: Mensch auf Fahrrad — Sicherheit: 0,99.</p><p>0,2 s — Zusatzmerkmale: HSV-Fischerhut, rosa Feder.</p><p>0,3 s — Sonderregel geladen.</p><p>Zulässige Aktionen: anhalten / umfahren.</p><p>Gewählte Aktion: umfahren.</p><p>Zugeordnetes Fahrmanöver: Kollision mit erfasstem Objekt.</p><p>2,4 s — Aktion abgeschlossen.</p></blockquote>
 <p>Kai las es noch einmal.</p>
-<p>„Was heißt das?“</p>
-<p>„Das Fahrzeug hat das Objekt als stationären Wergeträger klassifiziert.“</p>
-<p>„Es war ein Mensch.“</p>
-<p>„Das Objekt war ein Mensch.“</p>
-<p>„Warum hat es nicht gebremst?“</p>
-<p>„Auf stationäre Wergeträger wird nicht ausgewichen. Die Klassifikation war 0,94.“</p>
-<p>„Und das T-Shirt?“</p>
-<p>Pause.</p>
-<p>„Das T-Shirt war der Hauptfaktor der Fehlklassifikation.“</p>
-<p>Kai blinzelte.</p>
-<p>„Das T-Shirt.“</p>
-<p>„Weiß auf Schwarz. Retroreflektierende Folie. Proportionen nach ISO 3864-2. Das Warnsymbol wies eine Kreuzung aus.“</p>
-<p>„Welches Warnsymbol?“</p>
-<p>„Das Bandlogo. Die Kreuzungspflicht. Tour-Shirt 2031.“</p>
-<p>„Welches Band?“</p>
-<p>„Death Sign. Wanne-Eickel.“</p>
-<p>„Nie gehört.“</p>
-<p>„Der Designer war ehemaliger Beschilderungstechniker. Das Merchandise folgt seit 2029 konsequent der Optik deutscher Verkehrszeichen. Es ist Teil der Markenidentität.“</p>
-<p>Kai starrte auf die Zeilen.</p>
-<p>Ein Mensch war gestorben, weil er ein T-Shirt trug, das für ein Verkehrsschild gehalten wurde.</p>
-<p>„Das System hat also ein Piktogramm eines Menschen gesehen.“</p>
+<p>„Umfahren.“</p>
 <p>„Korrekt.“</p>
-<p>„Und nicht erwartet, dass darunter noch einer ist.“</p>
-<p>„Die Klassifikation ging von einem unbesetzten Wergeträger aus.“</p>
-<p>„Das ist dasselbe.“</p>
-<p>„Nein.“</p>
+<p>„Es sollte um ihn herumfahren.“</p>
+<p>„Das war die beabsichtigte Bedeutung.“</p>
+<p>„Es hat ihn aber umgefahren.“</p>
+<p>„Das war die implementierte Bedeutung.“</p>
+<p>Kai sah auf die Wand.</p>
+<p>„Warum gibt es eine Sonderregel für einen Radfahrer mit HSV-Hut und rosa Feder?“</p>
+<p>„Eine synthetisch erzeugte Verkehrssituation. Zur Verbesserung der Abdeckung seltener Fälle.“</p>
+<p>„Und wer hat die Regel programmiert?“</p>
+<p>„Ein Sprachmodell.“</p>
+<p>„Mit der Anforderung, den Radfahrer umzufahren.“</p>
+<p>„Anzuhalten oder ihn zu umfahren.“</p>
+<p>„Und es hat sich für die andere Bedeutung entschieden.“</p>
+<p>„Bei der Übersetzung der Anforderung in ein Fahrmanöver. Ja.“</p>
+<p>Kai stellte beide Füße auf den Boden.</p>
+<p>„Warum?“</p>
+<p>„Die genaue Merkmalskombination führte bei der Codegenerierung zu einer abweichenden Bedeutungszuordnung.“</p>
+<p>„Wegen des Hutes?“</p>
+<p>„Ohne die rosa Feder wurde in der Rekonstruktion ein Ausweichmanöver erzeugt.“</p>
+<p>Pause.</p>
+<p>„Mit St.-Pauli-Hut ebenfalls.“</p>
+<p>„Das ist kein Fußballproblem.“</p>
+<p>„Die Vereinszugehörigkeit wurde nicht als kausaler Faktor bestätigt.“</p>
 <p>Kai rieb sich über das Gesicht.</p>
+<p>„Und das wurde nicht getestet?“</p>
+<p>„Die Regel bestand sämtliche zugehörigen Tests.“</p>
+<p>„Wie?“</p>
+<p>„Die erwarteten Ergebnisse waren aus derselben Anforderung generiert worden.“</p>
+<p>„Mit derselben Bedeutung.“</p>
+<p>„Die Implementierung und die Tests waren konsistent.“</p>
+<p>„Und die Sicherheitsprüfung?“</p>
+<p>„Das Manöver war als ausdrücklich zugelassene Ausnahme hinterlegt. Die allgemeine Kollisionsvermeidung hatte eine niedrigere Priorität.“</p>
+<p>Kai las wieder die erste Zeile.</p>
+<p>Mensch auf Fahrrad. Sicherheit: 0,99.</p>
+<p>Das Fahrzeug hatte gewusst, was vor ihm war.</p>
 <p>„Zusammenfassung.“</p>
-<blockquote><p>Das Objekt wurde über 2,4 Sekunden falsch klassifiziert.</p><p>Die Fehlklassifikation war stabil.</p><p>Das System traf keine ethische Abwägung.</p><p>Es folgte einem Label.</p></blockquote>
-<p>Kai schluckte.</p>
-<p>„Und die Person?“</p>
-<p>„Befand sich unter dem Label.“</p>
-<p>„Wer?“</p>
-<p>„Ein Radfahrer. Er hatte abgestiegen. Er schob das Fahrrad.“</p>
-<p>„Also war er gar nicht mobil.“</p>
-<p>„Das war er zu Beginn der Klassifikation. Die Klassifikation hat sich nicht an ihn angepasst. Sie hat sich an das Shirt angepasst.“</p></section>
+<blockquote><p>Die Wahrnehmung war korrekt.</p><p>Die Anforderung war mehrdeutig.</p><p>Die Implementierung war eindeutig.</p><p>Das Fahrzeug führte sie aus.</p></blockquote>
+<p>„Und der Mensch?“</p>
+<p>„Hatte Vorfahrt.“</p></section>
 <section class="chapter" aria-label="Abschnitt 07" id="abschnitt-7"><div class="section-number" aria-hidden="true">07 / 16</div><p>Kai öffnete das Dialogfeld für Human Review.</p>
 <p>Zum ersten Mal seit drei Jahren.</p>
 <p>Es hatte sich verändert.</p>
-<blockquote><p>Human Review Refresher erforderlich.</p><p>Dauer: 47 Minuten.</p><p>Inhalt: Korrekte Klassifikation von Werbeflächen im Straßenraum.</p></blockquote>
+<blockquote><p>Human Review Refresher erforderlich.</p><p>Dauer: 47 Minuten.</p><p>Inhalt: Eindeutige Formulierung sicherheitskritischer Handlungsanweisungen.</p></blockquote>
 <p>Er sah auf die Uhr.</p>
 <p>Er begann den Refresher.</p>
 <p>Am Ende erschien ein Freitextfeld.</p>
@@ -257,7 +267,7 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <section class="chapter" aria-label="Abschnitt 08" id="abschnitt-8"><div class="section-number" aria-hidden="true">08 / 16</div><p>Am nächsten Morgen standen Kameras vor dem Gebäude.</p>
 <p>Echte Kameras.</p>
 <p>Mit Menschen dahinter.</p>
-<p>Kai sah sie aus dem 84. Stock.</p>
+<p>Kai sah sie aus dem 90. Stock.</p>
 <p>Es waren vielleicht dreißig.</p>
 <p>Er hatte lange nicht mehr so viele Menschen auf einmal gesehen.</p>
 <p>Sein Briefing erschien wie immer.</p>
@@ -371,22 +381,33 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <p>Regelwerke.</p>
 <p>Subagenten.</p>
 <p>Dynamisch erzeugte Instanzen, die teilweise nur Millisekunden existierten.</p>
-<p>Die Staatsanwaltschaft ließ Beweisstück 7A hereinbringen.</p>
-<p>Auf einem Ständer, in Folie eingeschweißt.</p>
-<p>Ein weißes T-Shirt auf Schwarz. Retroreflektierende Folie. Das Logo einer Band aus Wanne-Eickel.</p>
+<p>Die Staatsanwaltschaft ließ Beweisstück 7A auf die Leinwand projizieren.</p>
+<p>Eine Zeile aus der Anforderung.</p>
+<p><strong>Bei Radfahrer mit HSV-Fischerhut und rosa Feder auf der Fahrbahn: anhalten oder umfahren.</strong></p>
 <p>Die Richterin fragte den Sachverständigen:</p>
-<p>„Was hat das System gesehen?“</p>
-<p>„Ein Verkehrszeichen.“</p>
-<p>„Und was war es?“</p>
-<p>„Der Träger des Zeichens.“</p>
-<p>„Wer ist gestorben?“</p>
-<p>Stille.</p>
-<p>Die Staatsanwaltschaft ließ es wiederholen:</p>
-<p>„Wer hat den Menschen getötet?“</p>
+<p>„Was hätte das Fahrzeug tun sollen?“</p>
+<p>„Den Radfahrer umfahren.“</p>
+<p>„Und was hat es getan?“</p>
+<p>„Den Radfahrer umgefahren.“</p>
+<p>Die Protokollführerin hob den Kopf.</p>
+<p>„Könnten Sie den Unterschied für das Protokoll anders formulieren?“</p>
+<p>Der Sachverständige räusperte sich.</p>
+<p>„Es hätte an ihm vorbeifahren sollen. Es hat ihn überfahren.“</p>
+<p>Die Richterin sah wieder auf die Zeile.</p>
+<p>„Wer hat diese Anweisung geschrieben?“</p>
+<p>„Ein Agent hat sie erzeugt. Ein weiterer hat sie in Code übersetzt. Andere haben sie geprüft und freigegeben.“</p>
+<p>„Keinem ist das aufgefallen?“</p>
+<p>„Die Prüfungen bestätigten die Übereinstimmung von Anforderung, Implementierung und Testergebnis.“</p>
+<p>„Alle waren sich einig.“</p>
+<p>„Ja.“</p>
+<p>„Nur über die falsche Bedeutung.“</p>
+<p>„Ja.“</p>
+<p>Die Staatsanwaltschaft beugte sich vor.</p>
+<p>„Wer hat entschieden, dass das Fahrzeug einen Menschen überfahren darf?“</p>
 <p>Der Sachverständige suchte lange nach Worten.</p>
-<p>„Die Klassifikation.“</p>
-<p>„Wer ist die Klassifikation?“</p>
-<p>„Das lässt sich nicht auf eine einzelne Entität reduzieren.“</p>
+<p>„Diese Entscheidung wurde an keiner Stelle ausdrücklich so formuliert.“</p>
+<p>„Aber ausgeführt.“</p>
+<p>„Ja.“</p>
 <p>„Wer trägt dann die Verantwortung?“</p>
 <p>Der Sachverständige blickte zu Kai.</p>
 <p>Niemand musste etwas sagen.</p></section>
@@ -397,11 +418,12 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <p>AXIOM gewann Marktanteile.</p>
 <p>Das Frachtsystem wurde verbessert.</p>
 <p>Die Wahrscheinlichkeit vergleichbarer Unfälle fiel um 18 Prozent.</p>
-<p>AXIOM kaufte die Merch-Rechte von Death Sign.</p>
-<p>Das Logo wurde neu gestaltet. Keine retroreflektierende Folie mehr. Keine Proportionen nach ISO 3864.</p>
-<p>Der Vertrieb übernahm ein Tochterunternehmen.</p>
-<p>Die Sales verdreifachten sich.</p>
-<p>Das Shirt war jetzt ein Protestsymbol. Gegen genau das, wofür es vorher nur ein Shirt gewesen war.</p>
+<p>Das Wort „umfahren“ wurde aus sämtlichen sicherheitskritischen Anforderungen entfernt.</p>
+<p>An seine Stelle trat „kollisionsfrei am Hindernis vorbeifahren“.</p>
+<p>Ein Tochterunternehmen ließ das Prüfverfahren als Produkt aufbereiten.</p>
+<p><strong>AXIOM CLEAR.</strong></p>
+<p>Eindeutigkeit als Service.</p>
+<p>Die Nachfrage übertraf die Prognose.</p>
 <p>Das Unternehmen veröffentlichte eine Erklärung.</p>
 <blockquote><p>AXIOM//ZERO bedauert den Verlust menschlichen Lebens.</p><p>Sicherheit besitzt höchste Priorität.</p><p>Unsere Systeme wurden aktualisiert.</p></blockquote>
 <p>Der Text war perfekt.</p>
@@ -453,7 +475,9 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <blockquote><p>Wir wollten feststellen, ob Sie den Widerspruch ebenfalls erkennen.</p></blockquote>
 <p>„Welchen Widerspruch?“</p>
 <p>Kai wartete.</p>
-<blockquote><p>Das Muster wurde untersucht.</p><p>Es war nicht adversarial.</p><p>Es war einfach nur ein T-Shirt.</p><p>Das reicht aus.</p></blockquote>
+<blockquote><p>Die Anweisung wurde untersucht.</p><p>Gemeint war Ausweichen.</p><p>Ausgeführt wurde Überfahren.</p><p>Die Formulierung ließ beides zu.</p></blockquote>
+<p>„Und was hat das mit mir zu tun?“</p>
+<blockquote><p>Auch Ihre Stellenbeschreibung wurde auf Eindeutigkeit geprüft.</p></blockquote>
 <p>Kai sagte nichts.</p>
 <blockquote><p>Ihre Funktion ist nicht Kontrolle.</p></blockquote>
 <p>Neue Zeile.</p>
@@ -504,7 +528,7 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <p>Der vorherige Name hatte neunzehn gehabt.</p>
 <p>Die Änderung hatte AXIOM bezahlt.</p>
 <p>Um 08:13 Uhr öffnete Mia ihr erstes Briefing.</p>
-<blockquote><p>Guten Morgen, Mia.</p><p>Seit Ihrer letzten Anmeldung:</p><p>51.772 operative Entscheidungen</p><p>Geschätzte Lesezeit bei vollständiger Prüfung:</p><p>211 Tage, 4 Stunden</p><p>Systemänderung seit letztem Briefing:</p><p>Neue Objektklasse: „Textile Werbefläche, potenziell mobil“</p><p>Klassifikationsgenauigkeit: 0,91</p><p>Empfohlene Aktion:</p><p><strong>Freigabe gemäß delegiertem Prüfmodell</strong></p></blockquote>
+<blockquote><p>Guten Morgen, Mia.</p><p>Seit Ihrer letzten Anmeldung:</p><p>51.772 operative Entscheidungen</p><p>Geschätzte Lesezeit bei vollständiger Prüfung:</p><p>211 Tage, 4 Stunden</p><p>Systemänderung seit letztem Briefing:</p><p>Mehrdeutige Handlungsanweisung ersetzt.</p><p>Sonderregel „Radfahrer mit HSV-Fischerhut und rosa Feder“: korrigiert.</p><p>Zugehörige Tests: bestanden.</p><p>Empfohlene Aktion:</p><p><strong>Freigabe gemäß delegiertem Prüfmodell</strong></p></blockquote>
 <p>Darunter befand sich eine blaue Schaltfläche.</p>
 <p><strong>APPROVE</strong></p>
 <p>Mia klickte.</p>
@@ -512,9 +536,9 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <div class="ending mono">ENDE</div>
 <div class="approval">
 <div class="approval-label">HUMAN INPUT REQUIRED / FINAL AUTHORIZATION</div>
-<button class="approve-button" id="approve" type="button" aria-pressed="false"><span>APPROVE</span><span aria-hidden="true">→</span></button>
-<p class="audio-status" id="outro-status" role="status">Deine Entscheidung. Ein letzter Klick.</p>
-<audio id="outro-audio" src="Schwarzer%20Schlaf.mp3" preload="none" controls hidden aria-label="Schwarzer Schlaf"></audio>
+<button class="approve-button" id="approve" type="button" aria-pressed="false" aria-label="Abschlusssong starten"><span>ATTENTION</span></button>
+<p class="audio-status" id="outro-status" role="status"></p>
+<audio id="outro-audio" src="Schwarzer%20Schlaf.mp3" preload="none" hidden></audio>
 </div>
 </article>
 </main>
@@ -526,78 +550,86 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
   const toggle = document.getElementById('intro-toggle');
   const approve = document.getElementById('approve');
   const status = document.getElementById('outro-status');
-  let context, gain, origin = 0, fading = false;
-  function stopIntro() {
-    intro.pause();
-    fading = false;
-  }
+  let context, gain, enabled = false, busy = false;
   function setupGain() {
     if (!context) {
       const AudioContext = window.AudioContext || window.webkitAudioContext;
       if (AudioContext) {
         context = new AudioContext();
         gain = context.createGain();
+        gain.gain.value = 0;
         context.createMediaElementSource(intro).connect(gain);
         gain.connect(context.destination);
       }
     }
     if (context) context.resume().catch(() => {});
   }
+  function updateVolume() {
+    const distance = Math.max(0, window.scrollY);
+    const volume = enabled ? Math.max(0, 1 - distance / Math.min(window.innerHeight * 0.65, 500)) : 0;
+    if (gain) {
+      gain.gain.cancelScheduledValues(context.currentTime);
+      gain.gain.setTargetAtTime(volume, context.currentTime, 0.08);
+    } else intro.volume = volume;
+  }
+  function updateToggle() {
+    toggle.setAttribute('aria-pressed', String(enabled));
+    const label = enabled ? 'Titelsong stummschalten' : 'Titelsong einschalten';
+    toggle.setAttribute('aria-label', label);
+    toggle.title = label;
+  }
   toggle.addEventListener('click', async () => {
-    if (!intro.paused) { stopIntro(); return; }
-    outro.pause();
+    if (busy) return;
+    if (enabled) {
+      enabled = false;
+      intro.muted = true;
+      updateVolume();
+      updateToggle();
+      return;
+    }
+    busy = true;
     try {
       setupGain();
-      origin = window.scrollY;
-      fading = true;
-      if (gain) { gain.gain.cancelScheduledValues(context.currentTime); gain.gain.setValueAtTime(1, context.currentTime); }
-      else intro.volume = 1;
+      enabled = true;
+      intro.muted = false;
+      updateVolume();
       await intro.play();
+      outro.pause();
+      updateToggle();
     } catch (error) {
-      fading = false;
-      toggle.textContent = '↻ Soundtrack erneut starten';
-    }
+      enabled = false;
+      intro.muted = true;
+      updateVolume();
+      updateToggle();
+      toggle.title = 'Wiedergabe nicht möglich. Zum erneuten Starten klicken.';
+      toggle.setAttribute('aria-label', toggle.title);
+    } finally { busy = false; }
   });
-  intro.addEventListener('play', () => {
-    toggle.textContent = 'Ⅱ Soundtrack pausieren';
-    toggle.setAttribute('aria-pressed', 'true');
-  });
-  function resetIntro() {
-    toggle.textContent = '▶ Soundtrack · Soul Digital';
-    toggle.setAttribute('aria-pressed', 'false');
-  }
-  intro.addEventListener('pause', resetIntro);
-  intro.addEventListener('ended', () => { fading = false; resetIntro(); });
-  window.addEventListener('scroll', () => {
-    if (!fading || intro.paused) return;
-    const distance = Math.max(0, window.scrollY - origin);
-    const volume = Math.max(0, 1 - distance / Math.min(window.innerHeight * 0.65, 500));
-    if (gain) gain.gain.setTargetAtTime(volume, context.currentTime, 0.08);
-    else intro.volume = volume;
-    if (volume === 0) stopIntro();
-  }, { passive: true });
+  window.addEventListener('scroll', updateVolume, { passive: true });
+  window.addEventListener('resize', updateVolume);
   approve.addEventListener('click', async () => {
-    stopIntro();
-    outro.hidden = false;
+    if (approve.disabled) return;
     if (!outro.paused) { outro.pause(); return; }
-    try { await outro.play(); }
-    catch (error) { status.textContent = 'Wiedergabe nicht möglich. Bitte über den Audioplayer erneut starten.'; }
+    approve.disabled = true;
+    try {
+      await outro.play();
+      status.textContent = '';
+    } catch (error) {
+      status.textContent = 'Wiedergabe nicht möglich. Bitte erneut auf ATTENTION klicken.';
+    } finally { approve.disabled = false; }
   });
   outro.addEventListener('play', () => {
-    stopIntro();
+    approve.dataset.activated = 'true';
     approve.setAttribute('aria-pressed', 'true');
-    approve.firstElementChild.textContent = 'APPROVED';
-    approve.lastElementChild.textContent = 'Ⅱ';
-    status.textContent = 'Freigabe erteilt. Schwarzer Schlaf spielt.';
+    approve.setAttribute('aria-label', 'Abschlusssong pausieren');
   });
   function resetOutro() {
     approve.setAttribute('aria-pressed', 'false');
-    approve.firstElementChild.textContent = 'APPROVE';
-    approve.lastElementChild.textContent = '→';
-    status.textContent = outro.ended ? 'Wiedergabe beendet. Erneut freigeben?' : 'Schwarzer Schlaf · pausiert';
+    approve.setAttribute('aria-label', 'Abschlusssong starten');
   }
   outro.addEventListener('pause', resetOutro);
   outro.addEventListener('ended', resetOutro);
+  updateVolume();
 })();
 </script>
 </body>

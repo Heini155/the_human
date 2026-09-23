@@ -49,7 +49,12 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 @media(max-width:700px){.topbar{padding:18px 24px;font-size:9px}.cover{padding:35px 24px 55px;grid-template-columns:1fr;gap:38px}.cover-art{max-width:370px;width:100%;margin:auto}.cover-copy{max-width:440px;width:100%;margin:auto}h1{font-size:72px;margin:22px 0}h1 span{display:inline}h1 span+span::before{content:' '}.intro{font-size:20px;max-width:100%;margin:22px 0}.chapter{font-size:18px;line-height:1.85;padding-top:40px}.chapter blockquote{font-size:16px;padding:18px}.chapter+.chapter{margin-top:42px}footer{font-size:9px}.story-heading{font-size:9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{body{background:white;color:black}.topbar,.read-link,footer,.skip{display:none}.cover{display:block;padding:0}.cover-art{max-width:240px;margin:auto}.cover-copy{text-align:center}h1{font-size:48px}h1 span{display:inline}.intro{max-width:none}.reading{width:100%}.chapter{font-size:12pt}.chapter blockquote{break-inside:avoid;font-size:10pt}.section-number{position:static}.cover{break-after:page}}
-.soundtrack{display:block;margin-top:24px;background:transparent;border:1px solid var(--muted);padding:12px 16px;color:var(--ink);font:12px 'Courier New',monospace;cursor:pointer;min-height:44px}.soundtrack:hover{background:#dddfd5}button:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.approval{margin-top:50px;padding:32px 24px;background:#202821;color:#e9e7df;border:1px solid #727c67;box-shadow:7px 7px 0 #b9bbb0}.approval-label{font:11px 'Courier New',monospace;letter-spacing:.16em;color:#b7c5ac}.approve-button{display:flex;justify-content:space-between;align-items:center;gap:20px;width:100%;margin-top:22px;padding:22px 24px;border:1px solid #c6ddab;background:#c6ddab;color:#202821;font:bold 22px 'Courier New',monospace;letter-spacing:.12em;cursor:pointer;box-shadow:0 5px 0 #788a66;transition:background .2s,transform .2s,box-shadow .2s}.approve-button:hover{background:#d9edc2}.approve-button:active{transform:translateY(4px);box-shadow:0 1px 0 #788a66}.approve-button[aria-pressed="true"]{background:#202821;color:#c6ddab}.audio-status{font:12px/1.7 'Courier New',monospace;min-height:2em;margin:20px 0 0}.approval audio{display:block;width:100%;margin-top:16px}.approval audio[hidden]{display:none}@media print{.soundtrack,.approval{display:none}}@media(prefers-reduced-motion:reduce){.approve-button{transition:none}}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.soundtrack{position:absolute;right:16px;top:16px;display:grid;place-items:center;width:48px;height:48px;border:1px solid currentColor;border-radius:50%;background:#202821;color:#ff9b42;cursor:pointer;box-shadow:0 0 18px #ff9b4255}.soundtrack svg{width:25px;height:25px}.soundtrack[aria-pressed="false"]{animation:speaker-pulse 2s ease-in-out infinite}.soundtrack[aria-pressed="true"] .speaker-slash,.soundtrack[aria-pressed="false"] .speaker-waves{display:none}.soundtrack:hover{background:#343c30}button:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+.approval{margin-top:50px;padding:32px 24px;background:#202821;color:#e9e7df;border:1px solid #727c67;box-shadow:7px 7px 0 #b9bbb0}.approval-label{font:11px 'Courier New',monospace;letter-spacing:.16em;color:#b7c5ac}.approve-button{--signal:#adf39c;display:block;width:100%;margin-top:22px;padding:22px 24px;border:1px solid var(--signal);background:#294b2b;color:var(--signal);font:bold 22px 'Courier New',monospace;letter-spacing:.12em;cursor:pointer;box-shadow:0 0 22px #adf39c30;transition:background .4s,color .4s,border-color .4s}.approve-button span{animation:attention-pulse 1.8s ease-in-out infinite}.approve-button:hover{filter:brightness(1.15)}.approve-button:active{transform:translateY(2px)}.approve-button[data-activated="true"]{--signal:#ff8273;background:#641f22;box-shadow:0 0 25px #ff443344}.audio-status{font:12px/1.7 'Courier New',monospace;margin:20px 0 0}.audio-status:empty{display:none}audio{display:none}
+@keyframes speaker-pulse{50%{box-shadow:0 0 25px #ff9b42aa;filter:brightness(1.25)}}
+@keyframes attention-pulse{0%,100%{text-shadow:0 0 4px currentColor;opacity:.8}50%{text-shadow:0 0 9px currentColor,0 0 24px currentColor;opacity:1}}
+@media print{.soundtrack,.approval{display:none}}@media(prefers-reduced-motion:reduce){.soundtrack[aria-pressed="false"],.approve-button span{animation:none}.approve-button{transition:none}}
 </style>
 </head>
 <body id="anfang">
@@ -57,8 +62,8 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 <header class="topbar"><a href="#anfang">AXIOM//ZERO</a><span class="status">Human in the loop</span></header>
 <main>
 <div class="cover">
-<figure class="cover-art"><img src="ChatGPT%20Image%2021.%20Sept.%202026%2C%2018_35_36.png" width="1024" height="1536" alt="Dystopisches Titelplakat: eine schwarze menschliche Silhouette auf abgenutztem Papier, beschriftet mit THE HUMAN und Human Resources Division." fetchpriority="high"><figcaption>Human Resources Division / H–01</figcaption></figure>
-<div class="cover-copy"><p class="eyebrow">Eine Kurzgeschichte aus einer nahen Zukunft</p><h1><span>THE</span><span>HUMAN</span></h1><p class="intro">31.742 Entitäten.<br>31.741 davon waren keine Menschen.</p><div class="metadata mono">ZEIT / 203x<br>LESEDAUER / ca. MINUTES Minuten</div><a class="read-link" href="#geschichte">Geschichte lesen <span aria-hidden="true">↓</span></a><button class="soundtrack" id="intro-toggle" type="button" aria-pressed="false">▶ Soundtrack · Soul Digital</button><audio id="intro-audio" src="soul_digital.mp3" preload="none"></audio></div>
+<figure class="cover-art"><button class="soundtrack" id="intro-toggle" type="button" aria-pressed="false" aria-label="Titelsong einschalten" title="Titelsong einschalten"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4Z"/><g class="speaker-waves"><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/></g><path class="speaker-slash" d="m2 2 20 20"/></svg></button><audio id="intro-audio" src="soul_digital.mp3" preload="none" loop hidden></audio><img src="ChatGPT%20Image%2021.%20Sept.%202026%2C%2018_35_36.png" width="1024" height="1536" alt="Dystopisches Titelplakat: eine schwarze menschliche Silhouette auf abgenutztem Papier, beschriftet mit THE HUMAN und Human Resources Division." fetchpriority="high"><figcaption>Human Resources Division / H–01</figcaption></figure>
+<div class="cover-copy"><p class="eyebrow">Eine Kurzgeschichte aus einer nahen Zukunft</p><h1 class="visually-hidden">THE HUMAN</h1><p class="intro">31.742 Entitäten.<br>31.741 davon waren keine Menschen.</p><div class="metadata mono">ZEIT / 203x<br>LESEDAUER / ca. MINUTES Minuten</div><a class="read-link" href="#geschichte">Geschichte lesen <span aria-hidden="true">↓</span></a></div>
 </div>
 <article class="reading" id="geschichte" aria-label="The Human — vollständige Kurzgeschichte">
 <div class="story-heading mono"><span>THE HUMAN</span><span>AXIOM//ZERO · 203x</span></div>
@@ -66,9 +71,9 @@ STORY
 <div class="ending mono">ENDE</div>
 <div class="approval">
 <div class="approval-label">HUMAN INPUT REQUIRED / FINAL AUTHORIZATION</div>
-<button class="approve-button" id="approve" type="button" aria-pressed="false"><span>APPROVE</span><span aria-hidden="true">→</span></button>
-<p class="audio-status" id="outro-status" role="status">Deine Entscheidung. Ein letzter Klick.</p>
-<audio id="outro-audio" src="Schwarzer%20Schlaf.mp3" preload="none" controls hidden aria-label="Schwarzer Schlaf"></audio>
+<button class="approve-button" id="approve" type="button" aria-pressed="false" aria-label="Abschlusssong starten"><span>ATTENTION</span></button>
+<p class="audio-status" id="outro-status" role="status"></p>
+<audio id="outro-audio" src="Schwarzer%20Schlaf.mp3" preload="none" hidden></audio>
 </div>
 </article>
 </main>
@@ -80,78 +85,86 @@ STORY
   const toggle = document.getElementById('intro-toggle');
   const approve = document.getElementById('approve');
   const status = document.getElementById('outro-status');
-  let context, gain, origin = 0, fading = false;
-  function stopIntro() {
-    intro.pause();
-    fading = false;
-  }
+  let context, gain, enabled = false, busy = false;
   function setupGain() {
     if (!context) {
       const AudioContext = window.AudioContext || window.webkitAudioContext;
       if (AudioContext) {
         context = new AudioContext();
         gain = context.createGain();
+        gain.gain.value = 0;
         context.createMediaElementSource(intro).connect(gain);
         gain.connect(context.destination);
       }
     }
     if (context) context.resume().catch(() => {});
   }
+  function updateVolume() {
+    const distance = Math.max(0, window.scrollY);
+    const volume = enabled ? Math.max(0, 1 - distance / Math.min(window.innerHeight * 0.65, 500)) : 0;
+    if (gain) {
+      gain.gain.cancelScheduledValues(context.currentTime);
+      gain.gain.setTargetAtTime(volume, context.currentTime, 0.08);
+    } else intro.volume = volume;
+  }
+  function updateToggle() {
+    toggle.setAttribute('aria-pressed', String(enabled));
+    const label = enabled ? 'Titelsong stummschalten' : 'Titelsong einschalten';
+    toggle.setAttribute('aria-label', label);
+    toggle.title = label;
+  }
   toggle.addEventListener('click', async () => {
-    if (!intro.paused) { stopIntro(); return; }
-    outro.pause();
+    if (busy) return;
+    if (enabled) {
+      enabled = false;
+      intro.muted = true;
+      updateVolume();
+      updateToggle();
+      return;
+    }
+    busy = true;
     try {
       setupGain();
-      origin = window.scrollY;
-      fading = true;
-      if (gain) { gain.gain.cancelScheduledValues(context.currentTime); gain.gain.setValueAtTime(1, context.currentTime); }
-      else intro.volume = 1;
+      enabled = true;
+      intro.muted = false;
+      updateVolume();
       await intro.play();
+      outro.pause();
+      updateToggle();
     } catch (error) {
-      fading = false;
-      toggle.textContent = '↻ Soundtrack erneut starten';
-    }
+      enabled = false;
+      intro.muted = true;
+      updateVolume();
+      updateToggle();
+      toggle.title = 'Wiedergabe nicht möglich. Zum erneuten Starten klicken.';
+      toggle.setAttribute('aria-label', toggle.title);
+    } finally { busy = false; }
   });
-  intro.addEventListener('play', () => {
-    toggle.textContent = 'Ⅱ Soundtrack pausieren';
-    toggle.setAttribute('aria-pressed', 'true');
-  });
-  function resetIntro() {
-    toggle.textContent = '▶ Soundtrack · Soul Digital';
-    toggle.setAttribute('aria-pressed', 'false');
-  }
-  intro.addEventListener('pause', resetIntro);
-  intro.addEventListener('ended', () => { fading = false; resetIntro(); });
-  window.addEventListener('scroll', () => {
-    if (!fading || intro.paused) return;
-    const distance = Math.max(0, window.scrollY - origin);
-    const volume = Math.max(0, 1 - distance / Math.min(window.innerHeight * 0.65, 500));
-    if (gain) gain.gain.setTargetAtTime(volume, context.currentTime, 0.08);
-    else intro.volume = volume;
-    if (volume === 0) stopIntro();
-  }, { passive: true });
+  window.addEventListener('scroll', updateVolume, { passive: true });
+  window.addEventListener('resize', updateVolume);
   approve.addEventListener('click', async () => {
-    stopIntro();
-    outro.hidden = false;
+    if (approve.disabled) return;
     if (!outro.paused) { outro.pause(); return; }
-    try { await outro.play(); }
-    catch (error) { status.textContent = 'Wiedergabe nicht möglich. Bitte über den Audioplayer erneut starten.'; }
+    approve.disabled = true;
+    try {
+      await outro.play();
+      status.textContent = '';
+    } catch (error) {
+      status.textContent = 'Wiedergabe nicht möglich. Bitte erneut auf ATTENTION klicken.';
+    } finally { approve.disabled = false; }
   });
   outro.addEventListener('play', () => {
-    stopIntro();
+    approve.dataset.activated = 'true';
     approve.setAttribute('aria-pressed', 'true');
-    approve.firstElementChild.textContent = 'APPROVED';
-    approve.lastElementChild.textContent = 'Ⅱ';
-    status.textContent = 'Freigabe erteilt. Schwarzer Schlaf spielt.';
+    approve.setAttribute('aria-label', 'Abschlusssong pausieren');
   });
   function resetOutro() {
     approve.setAttribute('aria-pressed', 'false');
-    approve.firstElementChild.textContent = 'APPROVE';
-    approve.lastElementChild.textContent = '→';
-    status.textContent = outro.ended ? 'Wiedergabe beendet. Erneut freigeben?' : 'Schwarzer Schlaf · pausiert';
+    approve.setAttribute('aria-label', 'Abschlusssong starten');
   }
   outro.addEventListener('pause', resetOutro);
   outro.addEventListener('ended', resetOutro);
+  updateVolume();
 })();
 </script>
 </body>
