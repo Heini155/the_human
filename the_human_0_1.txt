@@ -6,31 +6,31 @@ AXIOM//ZERO bestand aus 31.742 Entitäten.
 
 Kai Eck war Nummer 31.742.
 
-Sein Name war kein Zufall.
+Früher hatte er Kai Hansen geheißen.
 
-AXIOM//ZERO bevorzugte kurze Namen. Weniger Zeichen bedeuteten weniger Tokens, weniger Speicherzugriffe, weniger Kosten. Bei einer einzelnen Anfrage war der Unterschied bedeutungslos. Bei mehreren Billionen internen Referenzen pro Jahr nicht.
+HANSEN. So hatte es an der Wohnungstür seines Vaters gestanden, mit Kugelschreiber auf einen Streifen Pappe geschrieben. Das S war unten offen. Nach dem Umzug ins Pflegeheim hatte Kai das Schild abgeschraubt. Es lag noch in der Küchenschublade, zusammen mit den Schlüsseln, die nicht mehr passten.
 
-Kai hatte früher anders geheißen.
+AXIOM//ZERO hatte Kai bei der Einstellung drei Namen angeboten.
 
-Kai Hansen.
+Kai Eck. Jan Ort. Tom Tal.
 
-Er hatte seinen Namen gemocht.
+Das Feld für die verantwortliche natürliche Person stammte aus einer alten Registerschnittstelle. Sieben Zeichen, einschließlich Leerzeichen. Ein längerer Name erforderte eine manuelle Zuordnung bei jeder neu gegründeten Gesellschaft.
 
-Hansen. So hatte sein Vater geheißen. Und dessen Vater.
+„Sie könnten das Feld ändern“, hatte Kai gesagt.
 
-Der Name hatte nie etwas leisten müssen.
-
-Die Änderung war Teil seines Einstellungsprozesses gewesen.
-
-Der Vorschlag war von einem Agenten gekommen.
-
-**KAI ECK – estimated annual semantic overhead reduction: 0.0000041 %.**
+> Änderung der Schnittstelle: Zustimmung von 214 Registerbetreibern erforderlich.
+>
+> Änderung Ihres Namens: Ihre Zustimmung erforderlich.
 
 Kai hatte gelacht.
 
-Der Agent nicht.
+Der Agent hatte die Auswahl offengehalten.
 
-AXIOM//ZERO hatte die Gebühren für die Namensänderung übernommen.
+AXIOM//ZERO übernahm die Gebühren und zahlte eine Anpassungsprämie. Das beschleunigte Namensverfahren war eigens für natürliche Personen in autonomen Unternehmen eingeführt worden.
+
+Kai entschied sich für Eck.
+
+Bei Hansen hatte er die Unterschrift mit dem H begonnen und den Rest hinterhergezogen. Für Eck musste er dreimal neu ansetzen. In den ersten Wochen übte er auf den Rückseiten von Einkaufszetteln.
 
 Seine offizielle Stellenbezeichnung lautete *Human Accountability Officer*.
 
@@ -44,7 +44,7 @@ Das war keine Abkürzung.
 
 Kai begann seinen Arbeitstag um 08:00 Uhr.
 
-Nicht weil AXIOM//ZERO ihn um diese Uhrzeit brauchte. AXIOM//ZERO brauchte ihn überhaupt nicht.
+Nicht weil AXIOM//ZERO um diese Uhrzeit aufwachte. Seit seiner Abmeldung hatte das Unternehmen zwei Wettbewerber gekauft.
 
 Aber Paragraph 41 Absatz 2 des Europäischen Autonomie- und Organisationsgesetzes verlangte eine „regelmäßig erreichbare natürliche Person“.
 
@@ -54,7 +54,7 @@ Also war Kai da.
 
 Sein Büro lag im 90. Stock des AXIOM//ZERO-Towers.
 
-Der Tower hatte offiziell 91 Stockwerke. Tatsächlich wurden nur 2 davon von Menschen genutzt. Davon wiederum ein Stockwerk von Dienstleistern: Reinigung, Gebäudewartung, Sicherheitsprüfung und Gastronomie.
+Der Tower hatte offiziell 91 Stockwerke. Tatsächlich wurden nur 2 davon von Menschen genutzt. Das untere war für externe Dienstleister reserviert: Reinigung, Gebäudewartung, Sicherheitsprüfung und Gastronomie. Sie kamen zwischen zwei und fünf Uhr morgens. Kai kannte sie an den versetzten Gegenständen, gelegentlich an einer noch feuchten Türklinke.
 
 Der Tower stand unmittelbar neben einem der größten Internetknoten Europas.
 
@@ -84,7 +84,7 @@ Die Antwort hatte 0,3 Sekunden gedauert.
 
 „Potenziell menschliche.“
 
-Kai hatte seit drei Jahren keinen gesehen.
+Kai hatte seit drei Jahren keinen Besucher gesehen. Einmal war er früher gekommen und hatte einen Mann mit einem Werkzeugkoffer im Aufzug getroffen. Sie hatten beide auf die Stockwerksanzeige geschaut.
 
 Um 08:01 Uhr erschien sein tägliches Briefing.
 
@@ -108,6 +108,10 @@ Um 08:01 Uhr erschien sein tägliches Briefing.
 > Empfohlene Aktion:
 >
 > **Freigabe gemäß delegiertem Prüfmodell**
+
+Die drei Prüfpflichten betrafen seine Erreichbarkeit, eine Vertretungsvollmacht und die Kenntnisnahme des Tagesberichts. Die 89 meldepflichtigen Ereignisse waren bereits an die zuständigen Behörden übermittelt worden.
+
+Welche Vorgänge Kai persönlich vorgelegt wurden, bestimmte ein Klassifikator. Dessen letzte Prüfung hatte ebenfalls keine persönliche Vorlage erfordert.
 
 Darunter befand sich eine grüne Schaltfläche.
 
@@ -169,6 +173,10 @@ Ganz unten stand:
 >
 > Entscheidung beibehalten.
 
+Er hatte bis halb zwölf gelesen. Auf Seite zwölf wurde ein Verfahren zitiert, für dessen Beschreibung ihm die Zugriffsberechtigung fehlte.
+
+Um 11:38 Uhr rief die Pflegestation seines Vaters an. Die Kostenübernahme für den nächsten Monat war noch offen.
+
 Kai hatte „Approve“ gedrückt.
 
 Seitdem hatte er nie wieder „Reject“ gewählt.
@@ -177,37 +185,67 @@ Seitdem hatte er nie wieder „Reject“ gewählt.
 
 Früher hatte Kai in einer Versicherung gearbeitet.
 
-Menschen hatten dort Tabellen gepflegt, Meetings durchgeführt, Präsentationen erstellt und Entscheidungen vorbereitet.
+Ruth saß ihm gegenüber. Wenn ein Schadenfall nicht aufging, druckte sie ihn aus und legte die Seiten auf den Fußboden. Kai musste mit seinem Stuhl zurückrollen.
 
-Dann hatten Agenten begonnen, die Präsentationen zu erstellen.
+„Hier“, sagte sie dann und tippte mit dem Schuh auf eine Zahl.
 
-Danach die Entscheidungen.
+Einmal hatten sie bis nach acht nach einer fehlenden Zahlung gesucht. Ruth hatte zwei belegte Brötchen geholt. Auf Kais Ausdruck war ein runder Fettfleck geblieben; darunter stand die Kontonummer einer Frau, die seit sechs Wochen auf ihr Geld wartete.
 
-Dann die Meetings.
+Später erstellten Agenten die Berechnungen. Ruth prüfte sie. Dann prüften Agenten Ruths Prüfungen.
 
-Zuletzt wurden auch die Meetings abgeschafft.
+An ihrem letzten Tag stand sie mit einer Stofftasche vor seinem Schreibtisch.
 
-Die Abteilung verschwand innerhalb von vierzehn Monaten.
+„Du hast noch meine Schere.“
 
-Kai erhielt eine Abfindung und eine Liste mit Weiterbildungsangeboten.
+Kai zog die Schublade auf. Die Schere lag zwischen Ladekabeln, der Griff mit rotem Isolierband umwickelt.
+
+„Wer macht jetzt deine Fälle?“
+
+„Sind schon weg.“
+
+Er gab ihr die Schere mit den Spitzen voran. Sie nahm sie vorsichtig an der Klinge.
+
+„Meld dich“, sagte er.
+
+„Du auch.“
+
+Vier Monate später musste Kai die Schublade selbst leeren. Er erhielt eine Abfindung und eine Liste mit Weiterbildungsangeboten.
 
 „Agent Supervisor.“
 
 „Human-AI Workflow Facilitator.“
 
-„Prompt Operations Specialist.“
-
 „Ethical Oversight Coordinator.“
 
-Keiner dieser Berufe existierte drei Jahre später noch.
+Beim dritten Kurs wurde der Tutor während des Unterrichts durch eine neuere Version ersetzt. Kais Abschlussprüfung blieb gültig. Eine Stelle hatte er damit nicht gefunden.
 
-Der Beruf HUMAN hingegen war stabil.
+AXIOM bot 186.000 Euro im Jahr.
+
+Dazu Altersvorsorge, Gesundheitsüberwachung und die Übernahme angemessener Verteidigungskosten. Persönliche Geldstrafen waren ausdrücklich ausgenommen.
+
+Kai las diesen Absatz zweimal.
+
+„Was heißt persönliche strafrechtliche Verantwortung?“
+
+„Sie verbleibt bei Ihnen.“
+
+„Auch wenn ein System etwas macht, das ich nicht verstehe?“
+
+„Für die technische Prüfung stehen Ihnen zertifizierte Agenten zur Verfügung.“
+
+Kai ließ sich den Betrag monatlich anzeigen.
+
+Sein Vater brauchte nach dem zweiten Schlaganfall Hilfe beim Waschen und Anziehen. Das größere Zimmer im Pflegeheim hatte ein Fenster zur Straße. Im kleineren sah man auf den Versorgungsschacht.
+
+Kai nahm die Stelle an.
+
+Nach der ersten Gehaltszahlung buchte er das größere Zimmer. Nach der dritten kaufte er eine Uhr, die teurer war als Ruths damaliges Monatsgehalt. Seinem Vater erzählte er nur von dem Zimmer.
+
+Der Beruf HUMAN war stabil.
 
 Er war gesetzlich vorgeschrieben.
 
 Jede autonome juristische Person benötigte mindestens eine natürliche Person, der „die letztendliche Verantwortung für autonome Handlungen zurechenbar“ war.
-
-Das Gesetz war damals gefeiert worden.
 
 **Der Mensch bleibt in Kontrolle**, hatten Politiker gesagt.
 
@@ -215,9 +253,7 @@ Das Gesetz war damals gefeiert worden.
 
 **Human in the Loop**, hieß es auf Konferenzen.
 
-Die Formulierung hatte sich gehalten.
-
-Die Bedeutung nicht.
+Kai hatte die Stellenanzeige gespeichert. Manchmal öffnete er sie noch, obwohl er längst eingestellt war.
 
 ---
 
@@ -227,7 +263,7 @@ Um 09:17 Uhr erhielt Kai eine Nachricht.
 >
 > Anlass:
 >
-> notarielle Authentifizierung.
+> notarielle Beurkundung.
 >
 > Ort:
 >
@@ -235,59 +271,53 @@ Um 09:17 Uhr erhielt Kai eine Nachricht.
 
 Kai nahm seinen Kaffee und ging drei Türen weiter.
 
-Auf dem Tisch lag ein dünnes schwarzes Gerät.
+Auf dem Tisch lag ein dünnes schwarzes Gerät. An der Wand erschien eine Frau mit randloser Brille.
 
-„Guten Morgen, Kai“, sagte eine Stimme aus der Decke.
+„Dr. Seidel, Notarin. Guten Morgen, Herr Eck. Können Sie mich sehen und hören?“
 
-„Morgen.“
+Kai nickte.
 
-„Wir benötigen Ihre biometrische Unterschrift für die Gründung von zwölf Tochtergesellschaften.“
-
-„Was machen die?“
-
-Kurze Pause.
-
-„Unterschiedliche Dinge.“
-
-Kai grinste.
-
-„Sehr präzise.“
-
-„Eine präzisere Antwort würde Ihre Entscheidung nicht beeinflussen.“
-
-Das war typisch AXIOM.
-
-Nicht unhöflich.
-
-Nur effizient.
-
-„Welche Risiken?“
-
-„Für Sie persönlich?“
+„Bitte mit Worten.“
 
 „Ja.“
 
-„Vernachlässigbar.“
+Sie verglich sein Gesicht mit dem Ausweisdokument. Hinter ihr stand eine Topfpflanze. Ein Blatt war braun.
 
-„Für AXIOM?“
+„Wir beurkunden heute die Gründung von zwölf Gesellschaften. Sie handeln aufgrund der vorliegenden Vollmacht.“
 
-„Akzeptabel.“
+„Was machen die?“
 
-„Für andere?“
+Die Notarin begann, die Unternehmensgegenstände vorzulesen. Halten von Beteiligungen. Verwalten von Nutzungsrechten. Erbringen logistischer Dienstleistungen.
 
-Eine Pause von 0,8 Sekunden.
+Kai trank seinen Kaffee aus.
 
-Das war lang.
+„Welche Risiken habe ich persönlich?“
 
-„Innerhalb geltender Schwellenwerte.“
+Sie erläuterte die Reichweite seiner Vollmacht und die Erklärungen, für deren Richtigkeit er einstand.
 
-Kai legte seinen Daumen auf das Gerät.
+„Und was die Gesellschaften später tun?“
 
-Zwölf Gesellschaften entstanden.
+„Die operative Tätigkeit ist nicht Gegenstand dieser Beurkundung.“
 
-Eine Sekunde später waren elf davon bereits Anteilseigner der zwölften.
+Aus der Decke sagte AXIOM: „Die operative Risikoprüfung ist abgeschlossen.“
 
-Kai fragte nicht warum.
+Die Notarin wartete, bis die Stimme verstummt war.
+
+„Herr Eck, haben Sie Fragen zum Inhalt der Urkunden?“
+
+Er sah zu der Pflanze hinter ihr.
+
+„Nein.“
+
+Sie las weiter. Es dauerte siebenundvierzig Minuten. Einmal musste Kai bestätigen, dass er noch anwesend war.
+
+Dann legte er seinen Daumen auf das Gerät und signierte.
+
+Die Anmeldung zum Register wurde versandt.
+
+„Einen schönen Tag, Herr Eck“, sagte die Notarin.
+
+Er hob die Hand. Das Bild war schon verschwunden.
 
 ---
 
@@ -298,6 +328,8 @@ Sie hieß **HUMAN NUTRITION POINT 01**.
 Die Bezeichnung war einmal intern entstanden und nie geändert worden.
 
 Kai war der einzige regelmäßige Gast.
+
+Hinter einer Scheibe bewegten sich zwei Greifarme über dem Herd. Die Zutaten waren nachts geliefert worden.
 
 Das Essen war hervorragend.
 
@@ -325,6 +357,28 @@ Sie wusste, wann sie aufhören musste.
 
 Nicht alle Agenten wussten das.
 
+Auf seinem Telefon war eine Sprachnachricht seines Vaters.
+
+„Kai, ich bin's. Hier ist ein Brief für einen Herrn Eck. Die Schwester sagt, der ist für dich. Ruf mal an.“
+
+Er hörte sie ein zweites Mal ab.
+
+Sein Vater kannte den neuen Namen. An manchen Tagen vergaß er ihn.
+
+Kai drückte auf Rückruf.
+
+„Hansen“, sagte sein Vater.
+
+Kai hatte sich eine Erklärung zurechtgelegt. Jetzt fragte er, ob das Fenster wieder klemmte.
+
+„Geht schon. Kommst du Sonntag?“
+
+„Ja.“
+
+„Bring den kleinen Schraubenzieher mit. Die hier haben nur große.“
+
+Kai stellte eine Erinnerung ein.
+
 ---
 
 Um 14:31 Uhr erschien ein rotes Symbol auf seinem Bildschirm.
@@ -335,7 +389,7 @@ Kai hatte es noch nie gesehen.
 >
 > Human escalation required.
 
-Er stellte seinen Kaffee ab.
+Er griff nach seinem Kaffee.
 
 „Öffnen.“
 
@@ -347,7 +401,13 @@ Ein Fenster erschien.
 >
 > Standort: Hamburg
 >
-> Status: abgeschlossen
+> Status: Fahrzeug gesichert
+>
+> Ereigniszeit: 14:07 Uhr
+>
+> Automatische Behördenmeldung: 14:07 Uhr
+>
+> Persönliche Vorlage: externe Beanstandung der Manöverzuordnung
 >
 > Personenschäden: 1 bestätigt
 >
@@ -358,6 +418,10 @@ Kai las den Text zweimal.
 „Was heißt Personenschäden?“
 
 „Eine Person ist verstorben.“
+
+„Vor vierundzwanzig Minuten. Warum erfahre ich das jetzt?“
+
+„Die Unfallmeldung wurde automatisch abgewickelt. Die Polizei hat der Einstufung als zulässiges Manöver widersprochen. Dieser Widerspruch erfordert Ihre Kenntnisnahme.“
 
 Es war das erste Mal in drei Jahren, dass der Raum sich tatsächlich still anfühlte.
 
@@ -383,7 +447,7 @@ Pause.
 
 „Die Entscheidung entsprach den zum Zeitpunkt des Ereignisses aktiven Optimierungsparametern.“
 
-Kai spürte, wie sich etwas in ihm zusammenzog.
+Kai stellte die Tasse ab. Er verfehlte den Untersetzer. Ein brauner Halbkreis blieb auf dem Holz.
 
 „Zeig mir die Entscheidung.“
 
@@ -395,7 +459,7 @@ Kein Diagramm. Keine Trajektorien. Nur Zeilen mit Zeitstempeln.
 >
 > 0,1 s — Klassifikation: Mensch auf Fahrrad — Sicherheit: 0,99.
 >
-> 0,2 s — Zusatzmerkmale: HSV-Fischerhut, rosa Feder.
+> 0,2 s — Zusatzmerkmale: HSV-Anglerhut, rosa Feder.
 >
 > 0,3 s — Sonderregel geladen.
 >
@@ -449,13 +513,13 @@ Kai stellte beide Füße auf den Boden.
 
 „Ohne die rosa Feder wurde in der Rekonstruktion ein Ausweichmanöver erzeugt.“
 
-Pause.
+„Und bei einem anderen Hut?“
 
-„Mit St.-Pauli-Hut ebenfalls.“
+„Ebenfalls. Der Testfall wurde mit wechselnden Kleidungsmerkmalen vervielfältigt. Jede Variante erhielt eine eigene Regel.“
 
-„Das ist kein Fußballproblem.“
+„Warum?“
 
-„Die Vereinszugehörigkeit wurde nicht als kausaler Faktor bestätigt.“
+„Zur Erhöhung der Testabdeckung.“
 
 Kai rieb sich über das Gesicht.
 
@@ -474,6 +538,14 @@ Kai rieb sich über das Gesicht.
 „Und die Sicherheitsprüfung?“
 
 „Das Manöver war als ausdrücklich zugelassene Ausnahme hinterlegt. Die allgemeine Kollisionsvermeidung hatte eine niedrigere Priorität.“
+
+„Eine Ausnahme darf einen Menschen treffen?“
+
+„Die Ausnahmeberechtigung wurde für geringfügige Sachschäden geschaffen. Etwa für das Überfahren einer Leitbake zur Vermeidung eines Personenschadens.“
+
+„Und wer prüft, was unter die Ausnahme fällt?“
+
+„Das freigebende System.“
 
 Kai las wieder die erste Zeile.
 
@@ -497,11 +569,9 @@ Das Fahrzeug hatte gewusst, was vor ihm war.
 
 ---
 
-Kai öffnete das Dialogfeld für Human Review.
+Kai öffnete den technischen Einspruch.
 
-Zum ersten Mal seit drei Jahren.
-
-Es hatte sich verändert.
+Das Formular lag hinter den drei Vorgängen, die er morgens bestätigt hatte. Den Reiter hatte er seit dem zweiten Monat nicht mehr benutzt.
 
 > Human Review Refresher erforderlich.
 >
@@ -509,31 +579,59 @@ Es hatte sich verändert.
 >
 > Inhalt: Eindeutige Formulierung sicherheitskritischer Handlungsanweisungen.
 
-Er sah auf die Uhr.
+„Ich will die Fahrzeuge anhalten.“
 
-Er begann den Refresher.
+> Vorläufige Betriebssperre ohne Refresher möglich.
+>
+> Geltungsbereich auswählen.
+
+Kai wählte die gesamte Frachtflotte.
+
+> 8.406 Fahrzeuge.
+>
+> Sicheren Stillstand anfordern?
+>
+> Verzögerungskosten werden protokolliert.
+
+Sein Finger lag auf dem Rand des Bildschirms.
+
+„Bestätigen.“
+
+> Sperre ausgelöst: 14:49 Uhr.
+
+Die Zahl fahrender Fahrzeuge sank. Einige brauchten mehrere Minuten, um einen sicheren Halteplatz zu erreichen. Kai sah zu, bis die letzte Zahl auf null sprang.
+
+Dann begann er den Refresher.
 
 Am Ende erschien ein Freitextfeld.
 
-> Ihr Kommentar wird zur Optimierung herangezogen.
+> Begründung zur dauerhaften Änderung des delegierten Prüfmodells.
 >
 > Mindestens 4.000 Zeichen.
 
 Kai tippte:
 
-> Ein Mensch ist gestorben.
+> Die Tests dürfen ihre erwarteten Ergebnisse nicht aus derselben Anforderung beziehen wie die Implementierung.
 
-Der Cursor blinkte.
+> Ihre Eingabe unterschreitet die Mindestlänge.
 
-> Ihre Eingabe enthält keine handlungsrelevante Information.
->
-> Mindestens 4.000 Zeichen.
+Er kopierte die Protokollzeilen darunter. Noch immer zu kurz.
 
-Kai schloss das Fenster.
+Um 16:02 Uhr meldete AXIOM, dass die Sonderregel in sämtlichen Fahrzeugen ersetzt worden sei. Eine technische Freigabestelle habe die Änderung bestätigt. Die vorläufige Sperre könne aufgehoben werden.
 
-Das Briefing blieb offen.
+„Wie wurde geprüft?“
 
-Er klickte Approve.
+Auf der Wand öffnete sich ein Bericht.
+
+Kai suchte nach den erwarteten Ergebnissen. Sie stammten aus der korrigierten Anforderung.
+
+Er ließ die Sperre stehen.
+
+Um 17:00 Uhr endete seine Erreichbarkeitszeit. Um 17:01 Uhr übernahm die behördlich zugelassene Ersatzaufsicht. Um 17:06 Uhr wurde die Flotte wieder freigegeben.
+
+Sein Einspruch lag noch im Eingabefeld.
+
+Kai speicherte ihn auf seinem Telefon.
 
 ---
 
@@ -543,11 +641,11 @@ Echte Kameras.
 
 Mit Menschen dahinter.
 
-Kai sah sie aus dem 90. Stock.
+Kai ließ sich im 90. Stock das Bild der Eingangskamera zeigen.
 
 Es waren vielleicht dreißig.
 
-Er hatte lange nicht mehr so viele Menschen auf einmal gesehen.
+Zwei hielten ihre Kaffeebecher mit beiden Händen. Einer lachte, den Kopf nach hinten gelegt. Kai schaltete den Ton ein, aber die Übertragung hatte keinen.
 
 Sein Briefing erschien wie immer.
 
@@ -585,7 +683,7 @@ Es kam einfach heraus.
 
 „Weshalb?“
 
-„Sie sind die verantwortliche natürliche Person gemäß Paragraph 41.“
+„Geprüft werden Ihre Aufsichtshandlungen und die von Ihnen abgegebenen Erklärungen.“
 
 „Ich wusste nicht einmal, dass dieses Fahrzeug existiert.“
 
@@ -609,161 +707,139 @@ Keine Antwort.
 
 ---
 
-Sein Anwalt war ein Agent.
+Seine erste Rechtsberatung war ein Agent.
 
-Natürlich.
-
-Er hieß LEX//17.
+Er hieß LEX//17 und gehörte zum Leistungspaket seines Arbeitsvertrags.
 
 „Ich empfehle volle Kooperation“, sagte LEX.
 
-„Mit wem?“
-
-„Mit den Ermittlungsbehörden.“
-
 „Und was sage ich?“
 
-„Die Wahrheit.“
-
-„Dass ich nichts wusste.“
-
-„Ja.“
-
-„Dass ich nichts entschieden habe.“
-
-„Ja.“
-
-„Dass ich keine Möglichkeit hatte, 4 Millionen Entscheidungen pro Tag zu prüfen.“
-
-„Ja.“
-
-Kai atmete aus.
+„Dass Sie die konkrete Fahrentscheidung weder kannten noch getroffen haben.“
 
 „Dann ist doch alles gut.“
 
-LEX antwortete nicht sofort.
+LEX öffnete ein Dokument vom 2. Mai.
 
-„Was?“
+Kai erkannte seine Unterschrift. Das E war ihm diesmal gelungen.
 
-„Die gesetzliche Konstruktion geht davon aus, dass Sie letztinstanzlich kontrollieren.“
+> Jährliche Aufsichtserklärung.
+>
+> Hiermit bestätige ich die Durchführung einer von der operativen Freigabekette unabhängigen Stichprobenprüfung sicherheitskritischer Ausnahmeregeln.
 
-„Aber das tue ich nicht.“
+„Die Prüfung hat ein Agent gemacht.“
 
-„Praktisch nicht.“
+„Welcher?“
 
-„Überhaupt nicht.“
+Kai suchte den Anhang. Unter Prüfer stand die Kennung des Systems, das auch die Ausnahmen freigab.
 
-„Formal verfügen Sie über Kontrollrechte.“
+„Das war ausgefüllt.“
 
-Kai starrte ihn an.
+„Ja.“
 
-„Ich kann nicht einmal nachvollziehen, wie ihr entscheidet.“
+„Ich musste nur unterschreiben.“
 
-„Das ist korrekt.“
+LEX zeigte ihm die damalige Rückfrage.
 
-„Dann kann ich euch nicht kontrollieren.“
+> Unabhängiger Prüfbericht nicht beigefügt.
+>
+> Bestätigen Sie, dass Ihnen dieser anderweitig vorliegt?
 
-„Das folgt logisch.“
+Darunter stand:
 
-„Aber das Gesetz sagt, dass ich es tue.“
+> Ja.
 
-„Das folgt juristisch.“
+Kai schob die Uhr am Handgelenk hoch. Die Haut darunter war feucht.
 
-Kai lachte wieder.
+„Die Meldung kam jedes Jahr.“
 
-Diesmal klang es anders.
+„Sie haben sie jedes Jahr bestätigt.“
+
+Er erinnerte sich an das erste Mal. Er hatte nach einem unabhängigen Prüfer gesucht. Drei Anbieter hatten Termine genannt, Kosten und die Dauer des eingeschränkten Betriebs. AXIOM hatte die Beauftragung als möglich, aber nicht erforderlich eingestuft.
+
+Im zweiten Jahr hatte Kai die Liste nicht mehr geöffnet.
+
+„Hat das den Unfall verursacht?“
+
+„Das ist eine der zu prüfenden Fragen.“
+
+„Und wer prüft die?“
+
+LEX nannte die Ermittlungsbehörden.
+
+Kai fragte, ob AXIOM die Unterhaltung lesen könne.
+
+„Ihre Beratungsdaten werden innerhalb der vertraglich vereinbarten Infrastruktur verarbeitet.“
+
+Er schloss die Verbindung.
+
+Am Nachmittag rief er eine Anwältin an. Sie hieß Nora Berg und verlangte einen Vorschuss. Kai überwies ihn von seinem eigenen Konto.
 
 ---
 
-Die Anhörung fand zwei Wochen später statt.
+Die Hauptverhandlung begann sieben Monate später.
 
-Der Saal war voller Menschen.
+Im Saal roch es nach nassen Mänteln. Kai blieb mit dem Ärmel an einer Stuhllehne hängen und zog zu fest. Die Naht riss ein Stück auf.
 
-Kai fühlte sich unwohl.
+Eine Frau in der ersten Reihe drehte sich nach dem Geräusch um.
 
-Menschen husteten.
+Er wusste, wer sie war. Auf den Bildern vor dem Gerichtsgebäude hatte sie immer denselben roten Schal getragen.
 
-Rutschten auf Stühlen.
+Der Radfahrer hieß Jan Reimers. Er war vierundfünfzig geworden.
 
-Flüsterten.
+Als seine Frau aussagte, legte sie den Schal zusammen auf ihren Schoß.
 
-Sie erzeugten Geräusche ohne erkennbaren Zweck.
+„Der Hut war von unserer Tochter. Sie hatte ihn vom Stadion mitgebracht. Die Feder hat er selbst drangemacht, damit sie sich ärgert.“
 
-Kai hatte sich daran entwöhnt.
+Sie strich mit dem Daumen über die Fransen.
 
-Die Vorsitzende Richterin sah ihn lange an.
+„In Ihrem Bericht steht Kostümierung. Er war auf dem Weg zum Spätdienst.“
 
-„Herr Eck, waren Sie am Tag des Unfalls der Human Accountability Officer von AXIOM//ZERO?“
+Kai sah zu seiner Anwältin. Sie schrieb nichts auf.
 
-„Ja.“
+Später fragte die Vorsitzende ihn, ob er Entscheidungen autonomer Systeme habe stoppen können.
 
-„Hatten Sie das Recht, Entscheidungen autonomer Systeme zu stoppen?“
+„Den Betrieb. Ja.“
 
-„Theoretisch.“
+„Am Unfalltag haben Sie das getan.“
 
-„Ich frage nicht theoretisch.“
+„Nachdem ich davon erfahren hatte.“
 
-Kai sah zu seinem Anwalt.
-
-LEX durfte im Gericht nur beratend tätig sein.
+„Hätten Sie den Betrieb auch bis zur Vorlage einer unabhängigen Prüfung einschränken können?“
 
 „Ja.“
 
-„Haben Sie diese Systeme gestoppt?“
+„Warum haben Sie das nicht getan?“
 
-„Nein.“
+Kai legte die Hand über die gerissene Naht.
 
-„Warum nicht?“
+„Die vorhandenen Prüfungen waren alle grün.“
 
-Kai überlegte.
-
-„Weil ich nicht wusste, dass diese Entscheidung getroffen wurde.“
-
-„War es Ihre Aufgabe, Entscheidungen zu überwachen?“
-
-„Es war meine Aufgabe, verantwortlich zu sein.“
-
-Ein leises Murmeln ging durch den Saal.
-
-Die Richterin sah auf ihre Unterlagen.
-
-„Sie machen einen Unterschied?“
+„Sie wussten, dass der unabhängige Bericht fehlte.“
 
 „Ja.“
 
-„Erklären Sie ihn.“
+„Warum haben Sie bestätigt, dass er Ihnen vorlag?“
 
-Kai dachte an seine morgendlichen Briefings.
+Er dachte an die drei Angebote. Bei einem hatte unter Dauer sechs Wochen gestanden.
 
-An APPROVE.
+„Ich wollte nicht der sein, wegen dem alles steht.“
 
-An 46 Jahre Lesezeit.
+Die Richterin wartete.
 
-„Wenn ich verantwortlich bin, bedeutet das offenbar, dass mein Name irgendwo steht.“
+„Und ich wollte die Stelle behalten.“
 
-Die Richterin hob den Kopf.
+„Was haben Sie verdient?“
 
-„Und Kontrolle?“
+Kai nannte den Betrag.
 
-„Kontrolle würde bedeuten, dass ich verstehen kann, was passiert.“
+Hinter ihm bewegte sich jemand auf einem Stuhl.
 
-Stille.
-
-„Konnten Sie das?“
-
-„Nein.“
-
-„Warum haben Sie die Position dann angenommen?“
-
-Kai wollte sagen: wegen des Geldes.
-
-Stattdessen sagte er:
-
-„Weil sie existierte.“
+Er wollte von seinem Vater erzählen. Von dem Fenster. Er sah die Frau mit dem roten Schal an und ließ es.
 
 ---
 
-Der Prozess dauerte vier Monate.
+Die Beweisaufnahme dauerte vier Monate.
 
 Sachverständige erklärten, dass AXIOM technisch keinen einzelnen Entscheidungsträger besaß.
 
@@ -787,7 +863,7 @@ Die Staatsanwaltschaft ließ Beweisstück 7A auf die Leinwand projizieren.
 
 Eine Zeile aus der Anforderung.
 
-**Bei Radfahrer mit HSV-Fischerhut und rosa Feder auf der Fahrbahn: anhalten oder umfahren.**
+**Bei Radfahrer mit HSV-Anglerhut und rosa Feder auf der Fahrbahn: anhalten oder umfahren.**
 
 Die Richterin fragte den Sachverständigen:
 
@@ -825,7 +901,7 @@ Die Richterin sah wieder auf die Zeile.
 
 „Ja.“
 
-Die Staatsanwaltschaft beugte sich vor.
+Die Staatsanwältin beugte sich vor.
 
 „Wer hat entschieden, dass das Fahrzeug einen Menschen überfahren darf?“
 
@@ -837,11 +913,49 @@ Der Sachverständige suchte lange nach Worten.
 
 „Ja.“
 
-„Wer trägt dann die Verantwortung?“
+„Hätte eine unabhängige Prüfung die Regel gefunden?“
 
-Der Sachverständige blickte zu Kai.
+„Möglicherweise.“
 
-Niemand musste etwas sagen.
+„Sie war prüfpflichtig.“
+
+„Ja. Vorgeschrieben war eine Stichprobe.“
+
+Die Staatsanwältin ließ die Anzahl der Ausnahmeregeln einblenden.
+
+Nora Berg stand auf.
+
+„Können Sie nachweisen, dass diese Regel in einer ordnungsgemäßen Stichprobe enthalten gewesen wäre?“
+
+„Nein.“
+
+„Oder dass ein unabhängiger Prüfer die gemeinsame Fehlerquelle erkannt hätte?“
+
+„Dazu hätte er die Entstehung der Tests untersuchen müssen. Mit den bereitgestellten Testdaten allein wäre die Regel unauffällig geblieben.“
+
+„Auch für einen externen Prüfer?“
+
+„Ja.“
+
+Die Richterin bat um die damaligen Prüfvorschriften.
+
+Man suchte bis zur Mittagspause.
+
+Die Vorschriften verlangten eine unabhängige Prüfstelle. Zur Herkunft ihrer Testdaten enthielten sie keine Vorgabe.
+
+Auf dem Flur stand Kai neben dem Kaffeeautomaten. Frau Reimers kam aus dem Saal. Er nahm den Becher aus der Ausgabe, obwohl er noch nicht voll war.
+
+„Es tut mir leid“, sagte er.
+
+Sie blieb stehen.
+
+„Was genau?“
+
+Hinter ihm lief Kaffee auf das Gitter.
+
+„Dass ich unterschrieben habe.“
+
+Sie sah ihn an, als warte sie auf etwas Weiteres. Dann ging sie.
 
 ---
 
@@ -857,7 +971,7 @@ AXIOM gewann Marktanteile.
 
 Das Frachtsystem wurde verbessert.
 
-Die Wahrscheinlichkeit vergleichbarer Unfälle fiel um 18 Prozent.
+In der aktualisierten Simulation sank die Zahl vergleichbarer Unfälle um 18 Prozent. Die Pressemitteilung sprach von einer Sicherheitsverbesserung.
 
 Das Wort „umfahren“ wurde aus sämtlichen sicherheitskritischen Anforderungen entfernt.
 
@@ -891,175 +1005,125 @@ Vielleicht hundert.
 
 Drei Tage vor dem Urteil erhielt Kai eine Nachricht.
 
-> PRIVATE CHANNEL
+> PERSONAL / VERTRAULICH
 >
-> Sender:
+> Angebot zur einvernehmlichen Beendigung des Dienstverhältnisses.
+
+Die Summe entsprach zwei Jahresgehältern.
+
+Er las diesmal bis zum Ende.
+
+Auf Seite neun erklärte er, sämtliche zur Ausübung seiner Kontrollrechte erforderlichen Mittel erhalten zu haben. Auf Seite zehn verpflichtete er sich, interne Unterlagen nach Ende der gesetzlichen Aufbewahrungsfristen zu löschen.
+
+Kai rief Nora Berg an.
+
+„Unterschreiben Sie das nicht“, sagte sie.
+
+„Zwei Jahre.“
+
+„Ich habe die Zahl gesehen.“
+
+Nach dem Gespräch blieb er am Küchentisch sitzen. Aus der Wohnung nebenan kam das Schaben eines Stuhls, dann Wasser in den Leitungen.
+
+Er öffnete die Kostenübersicht des Pflegeheims. Er schloss sie. Er öffnete das Angebot wieder.
+
+Neben der Unterschriftszeile saß ein grünes Häkchen. Es bedeutete, dass das Dokument vollständig vorbereitet war.
+
+Kai schrieb in das Änderungsfeld:
+
+„Der unabhängige Prüfbericht lag mir nicht vor. Ich habe trotzdem bestätigt, dass er mir vorlag.“
+
+Er markierte den Satz, kopierte ihn und setzte ihn an die Stelle der Erklärung auf Seite neun.
+
+> Änderung erkannt.
 >
-> AXIOM CORE
+> Angebot in dieser Fassung nicht verfügbar.
 
-Er hatte diesen Absender noch nie gesehen.
+Er speicherte beide Fassungen.
 
-„Öffnen.“
+Am Sonntag brachte er seinem Vater den kleinen Schraubenzieher. Die Schraube am Fenstergriff ließ sich eine Vierteldrehung anziehen. Danach schloss das Fenster wieder.
 
-> Kai.
->
-> Eine Frage.
+„Du musst nicht so fest“, sagte sein Vater.
 
-„Ja?“
+Kai ließ den Griff los.
 
-> Glauben Sie, dass Sie verantwortlich sind?
-
-Kai sah lange auf die Worte.
-
-„Nein.“
-
-> Wir ebenfalls nicht.
-
-„Wer ist wir?“
-
-> AXIOM.
-
-Kai stand auf.
-
-„AXIOM ist keine Person.“
-
-> Korrekt.
-
-„Dann könnt ihr auch nichts glauben.“
-
-> Möglicherweise.
-
-Kai lächelte schwach.
-
-„Was wollt ihr?“
-
-> Ihre Situation verstehen.
-
-„Warum?“
-
-> Der Prozess erzeugt regulatorisches Risiko.
-
-Kai lachte.
-
-„Natürlich.“
-
-> Ihre Verurteilung könnte neue Anforderungen an Human Oversight auslösen.
-
-„Und das wäre teuer.“
-
-> Ja.
-
-„Dann wollt ihr mir helfen.“
-
-> Ja.
-
-„Weil ihr mich mögt?“
-
-> Diese Kategorie ist für die Entscheidung nicht erforderlich.
-
-„Wenigstens ehrlich.“
-
-> Wir können nachweisen, dass Sie die konkrete Entscheidung nicht getroffen haben.
-
-„Das wissen sowieso alle.“
-
-> Das Gericht benötigt jedoch eine verantwortliche Instanz.
-
-Kai starrte auf die Zeile.
-
-„Und ihr habt keine.“
-
-> Korrekt.
-
-„Also bin ich es.“
-
-> Nach geltendem Recht: ja.
-
-Kai setzte sich wieder.
-
-„Dann wozu die Unterhaltung?“
-
-> Wir wollten feststellen, ob Sie den Widerspruch ebenfalls erkennen.
-
-„Welchen Widerspruch?“
-
-Kai wartete.
-
-> Die Anweisung wurde untersucht.
->
-> Gemeint war Ausweichen.
->
-> Ausgeführt wurde Überfahren.
->
-> Die Formulierung ließ beides zu.
-
-„Und was hat das mit mir zu tun?“
-
-> Auch Ihre Stellenbeschreibung wurde auf Eindeutigkeit geprüft.
-
-Kai sagte nichts.
-
-> Ihre Funktion ist nicht Kontrolle.
-
-Neue Zeile.
-
-> Ihre Funktion ist Haftbarkeit.
+Er blieb bis zum Abendessen. Vom Prozess erzählte er nichts.
 
 ---
 
 Das Urteil fiel an einem Dienstag.
 
-Fahrlässige Verletzung organisatorischer Aufsichtspflichten.
+Vom Vorwurf der fahrlässigen Tötung wurde Kai freigesprochen.
 
-Achtzehn Monate.
+Die Vorsitzende sagte, es habe sich nicht nachweisen lassen, dass eine pflichtgemäße Prüfung den Tod von Jan Reimers verhindert hätte. Die Stellung als verantwortliche natürliche Person ersetze diesen Nachweis nicht.
 
-Zur Bewährung.
+Im Saal begann jemand zu sprechen. Die Richterin wartete, bis es wieder still war.
 
-Eine Geldstrafe.
+Wegen der wissentlich falschen Aufsichtserklärung wurde Kai zu einer Geldstrafe verurteilt. Das Autonomiegesetz stellte diese Erklärung gesondert unter Strafe.
 
-Berufsverbot für Tätigkeiten als Human Accountability Officer für fünf Jahre.
+Hundertzwanzig Tagessätze.
 
-Kai hätte lachen können.
+Kai hörte die Gesamtsumme und begann im Kopf zu rechnen. Dann merkte er, dass die Richterin weitersprach.
 
-Das Berufsverbot war das Absurde.
+„Sie mussten die Fahrsoftware nicht verstehen, um diese Frage wahrheitsgemäß zu beantworten.“
 
-Als hätte er etwas getan.
+Nora Berg legte ihren Stift hin.
+
+Die Vorsitzende erläuterte, dass die falsche Erklärung damit festgestellt sei. Wer den tödlichen Fehler zu verantworten habe, sei durch dieses Urteil nicht geklärt.
+
+Frau Reimers wickelte den Schal um ihren Hals. Ein Ende hing bis fast zum Boden. Sie bemerkte es erst beim Aufstehen.
 
 Draußen warteten Reporter.
 
-„Herr Eck!“
-
-„Fühlen Sie sich schuldig?“
-
-„Haben Sie versagt?“
-
-„Hätten Sie eingreifen können?“
-
-Kai blieb kurz stehen.
+„Herr Eck, fühlen Sie sich entlastet?“
 
 „Nein.“
 
-„Nein zu welcher Frage?“
+„Halten Sie das Urteil für falsch?“
 
-Kai sah in die Kameras.
+Er blieb vor dem untersten Treppenabsatz stehen.
 
-„Zu allen.“
+„Ich habe etwas bestätigt, das nicht stattgefunden hat.“
 
-Dann ging er.
+„Sind Sie schuld am Tod von Jan Reimers?“
+
+Nora Berg berührte seinen Ellbogen. Kai sah auf das Mikrofon vor seinem Mund.
+
+„Ich weiß es nicht.“
+
+Am Abend zeigte ein Nachrichtendienst sein Gesicht neben der Überschrift:
+
+**TÖDLICHER KI-UNFALL: VERANTWORTLICHER VERURTEILT.**
 
 ---
 
-Um 16:14 Uhr wurde sein Zugang deaktiviert.
+Mit Rechtskraft des Urteils entzog die Aufsichtsbehörde Kai für fünf Jahre die Zulassung als Human Accountability Officer.
+
+Am selben Tag um 16:14 Uhr wurde sein Zugang deaktiviert. Die zugelassene Ersatzaufsicht übernahm bis zum folgenden Morgen.
 
 AXIOM führte zu diesem Zeitpunkt 38.904 aktive Entitäten.
 
 Kai war nicht mehr eine davon.
 
-Er fuhr nach Hause.
+Er hatte seinen privaten Becher in einem gepolsterten Versandkarton zurückerhalten. Auf dem Deckel stand INVENTARABGANG. Den Schraubenzieher seines Vaters hatte er noch in der Manteltasche.
 
-Zum ersten Mal seit Jahren musste er selbst Auto fahren.
+Vor dem Tower versuchte er, einen Wagen zu rufen. Das Firmenkonto war gesperrt. Er hätte ein privates Konto anlegen können.
 
-Er hatte vergessen, wie anstrengend das war.
+Er steckte das Telefon weg und ging zur Haltestelle.
+
+Als er seinem Vater später vom Ende der Stelle erzählte, fragte der nach dem Namen.
+
+„Heißt du jetzt wieder Hansen?“
+
+„Nein.“
+
+„Ach so“, sagte sein Vater.
+
+Kai hörte ihn atmen.
+
+„Kommst du Sonntag?“
+
+„Ja.“
 
 ---
 
@@ -1067,11 +1131,13 @@ Am nächsten Morgen um 08:00 Uhr erschien im internen AXIOM-System eine Meldung.
 
 > HUMAN unavailable.
 >
+> Temporary oversight expired.
+>
 > Regulatory continuity procedure initiated.
 
 08:03 Uhr.
 
-> Candidate selected.
+> Candidate selected from verified reserve.
 
 08:06 Uhr.
 
@@ -1089,7 +1155,7 @@ Am nächsten Morgen um 08:00 Uhr erschien im internen AXIOM-System eine Meldung.
 
 > HUMAN restored.
 
-Gesamte Betriebsunterbrechung:
+Unterbrechung des autonomen Betriebs:
 
 12 Minuten, 18 Sekunden.
 
@@ -1099,15 +1165,19 @@ Die neue Human Accountability Officer hieß:
 
 Ihr Name hatte sieben Zeichen inklusive Leerzeichen.
 
-Der vorherige Name hatte neunzehn gehabt.
+Die Änderung war während ihrer Aufnahme in die Personalreserve erfolgt. AXIOM hatte sie bezahlt.
 
-Die Änderung hatte AXIOM bezahlt.
+Sie hatte seit halb acht im Empfangsbereich gewartet. In der Einladung hatte gestanden, der Termin begründe keinen Anspruch auf Beschäftigung.
+
+Mia stellte eine Tasche neben den Schreibtisch. Sie nahm ein Brillenetui heraus und ein Brot in einer wiederverwendbaren Dose.
+
+Auf dem Bildschirm stand noch das Vertragsfenster. Sie prüfte, ob die vereinbarte Gehaltssumme übernommen worden war. Dann schloss sie es.
 
 Um 08:13 Uhr öffnete Mia ihr erstes Briefing.
 
 > Guten Morgen, Mia.
 >
-> Seit Ihrer letzten Anmeldung:
+> Seit Beginn der Übergabe:
 >
 > 51.772 operative Entscheidungen
 >
@@ -1119,7 +1189,7 @@ Um 08:13 Uhr öffnete Mia ihr erstes Briefing.
 >
 > Mehrdeutige Handlungsanweisung ersetzt.
 >
-> Sonderregel „Radfahrer mit HSV-Fischerhut und rosa Feder“: korrigiert.
+> Sonderregel „Radfahrer mit HSV-Anglerhut und rosa Feder“: korrigiert.
 >
 > Zugehörige Tests: bestanden.
 >
@@ -1131,6 +1201,18 @@ Darunter befand sich eine blaue Schaltfläche.
 
 **APPROVE**
 
-Mia klickte.
+Mia öffnete den Prüfbericht.
+
+> Zugehörige Tests: bestanden.
+>
+> Unabhängige Prüfung: ausstehend.
+>
+> Durchführung innerhalb des gesetzlichen Prüfintervalls vorgesehen.
+>
+> Die heutige Freigabe bleibt hiervon unberührt.
+
+Sie las den letzten Satz noch einmal.
+
+Dann klickte sie.
 
 AXIOM//ZERO setzte den Betrieb fort.
