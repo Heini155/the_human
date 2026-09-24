@@ -51,7 +51,7 @@ Story and music: CC BY-NC-ND 4.0. Cover excluded. See LICENSE.md and LICENSES/. 
 @media print{body{background:white;color:black}.topbar,.read-link,footer,.skip{display:none}.cover{display:block;padding:0}.cover-art{max-width:240px;margin:auto}.cover-copy{text-align:center}h1{font-size:48px}h1 span{display:inline}.intro{max-width:none}.reading{width:100%}.chapter{font-size:12pt}.chapter blockquote{break-inside:avoid;font-size:10pt}.section-number{position:static}.cover{break-after:page}}
 .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
 .soundtrack{position:absolute;right:16px;top:16px;display:grid;place-items:center;width:48px;height:48px;border:1px solid currentColor;border-radius:50%;background:#202821;color:#ff9b42;cursor:pointer;box-shadow:0 0 18px #ff9b4255}.soundtrack svg{width:25px;height:25px}.soundtrack[aria-pressed="false"]{animation:speaker-pulse 2s ease-in-out infinite}.soundtrack[aria-pressed="true"] .speaker-slash,.soundtrack[aria-pressed="false"] .speaker-waves{display:none}.soundtrack:hover{background:#343c30}button:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
-.approval{margin-top:50px;padding:32px 24px;background:#202821;color:#e9e7df;border:1px solid #727c67;box-shadow:7px 7px 0 #b9bbb0}.approval-label{font:11px 'Courier New',monospace;letter-spacing:.16em;color:#b7c5ac}.approve-button{--signal:#adf39c;display:block;width:100%;margin-top:22px;padding:22px 24px;border:1px solid var(--signal);background:#294b2b;color:var(--signal);font:bold 22px 'Courier New',monospace;letter-spacing:.12em;cursor:pointer;box-shadow:0 0 22px #adf39c30;transition:background .4s,color .4s,border-color .4s}.approve-button span{animation:attention-pulse 1.8s ease-in-out infinite}.approve-button:hover{filter:brightness(1.15)}.approve-button:active{transform:translateY(2px)}.approve-button[data-activated="true"]{--signal:#ff8273;background:#641f22;box-shadow:0 0 25px #ff443344}.audio-status{font:12px/1.7 'Courier New',monospace;margin:20px 0 0}.audio-status:empty{display:none}audio{display:none}
+.approval{margin-top:50px;padding:32px 24px;background:#202821;color:#e9e7df;border:1px solid #727c67;box-shadow:7px 7px 0 #b9bbb0}.approval-label{font:11px 'Courier New',monospace;letter-spacing:.16em;color:#b7c5ac}.approve-button{--signal:#91c9ff;display:block;width:100%;margin-top:22px;padding:22px 24px;border:1px solid var(--signal);background:#183e68;color:var(--signal);font:bold 22px 'Courier New',monospace;letter-spacing:.12em;cursor:pointer;box-shadow:0 0 22px #91c9ff30;transition:background .4s,color .4s,border-color .4s}.approve-button span{animation:attention-pulse 1.8s ease-in-out infinite}.approve-button:hover{filter:brightness(1.15)}.approve-button:active{transform:translateY(2px)}.approve-button[data-activated="true"]{--signal:#ff8273;background:#641f22;box-shadow:0 0 25px #ff443344}.audio-status{font:12px/1.7 'Courier New',monospace;margin:20px 0 0}.audio-status:empty{display:none}audio{display:none}
 @keyframes speaker-pulse{50%{box-shadow:0 0 25px #ff9b42aa;filter:brightness(1.25)}}
 @keyframes attention-pulse{0%,100%{text-shadow:0 0 4px currentColor;opacity:.8}50%{text-shadow:0 0 9px currentColor,0 0 24px currentColor;opacity:1}}
 @media print{.soundtrack,.approval{display:none}}@media(prefers-reduced-motion:reduce){.soundtrack[aria-pressed="false"],.approve-button span{animation:none}.approve-button{transition:none}}
@@ -71,7 +71,7 @@ STORY
 <div class="ending mono">ENDE</div>
 <div class="approval">
 <div class="approval-label">HUMAN INPUT REQUIRED / FINAL AUTHORIZATION</div>
-<button class="approve-button" id="approve" type="button" aria-pressed="false" aria-label="Abschlusssong starten"><span>ATTENTION</span></button>
+<button class="approve-button" id="approve" type="button" aria-pressed="false" aria-label="APPROVE – Abschlusssong starten"><span>APPROVE</span></button>
 <p class="audio-status" id="outro-status" role="status"></p>
 <audio id="outro-audio" src="Schwarzer%20Schlaf.mp3" preload="none" hidden></audio>
 </div>
@@ -85,27 +85,12 @@ STORY
   const toggle = document.getElementById('intro-toggle');
   const approve = document.getElementById('approve');
   const status = document.getElementById('outro-status');
-  let context, gain, enabled = false, busy = false;
-  function setupGain() {
-    if (!context) {
-      const AudioContext = window.AudioContext || window.webkitAudioContext;
-      if (AudioContext) {
-        context = new AudioContext();
-        gain = context.createGain();
-        gain.gain.value = 0;
-        context.createMediaElementSource(intro).connect(gain);
-        gain.connect(context.destination);
-      }
-    }
-    if (context) context.resume().catch(() => {});
-  }
+  let enabled = false, busy = false, fadeStart = 0;
   function updateVolume() {
-    const distance = Math.max(0, window.scrollY);
-    const volume = enabled ? Math.max(0, 1 - distance / Math.min(window.innerHeight * 0.65, 500)) : 0;
-    if (gain) {
-      gain.gain.cancelScheduledValues(context.currentTime);
-      gain.gain.setTargetAtTime(volume, context.currentTime, 0.08);
-    } else intro.volume = volume;
+    const distance = Math.max(0, window.scrollY - fadeStart);
+    const volume = enabled ? Math.max(0, 1 - distance / Math.max(1, Math.min(window.innerHeight * 0.65, 500))) : 0;
+    intro.volume = volume;
+    intro.muted = !enabled || volume === 0;
   }
   function updateToggle() {
     toggle.setAttribute('aria-pressed', String(enabled));
@@ -124,7 +109,7 @@ STORY
     }
     busy = true;
     try {
-      setupGain();
+      fadeStart = window.scrollY;
       enabled = true;
       intro.muted = false;
       updateVolume();
@@ -144,6 +129,9 @@ STORY
   window.addEventListener('resize', updateVolume);
   approve.addEventListener('click', async () => {
     if (approve.disabled) return;
+    approve.dataset.activated = 'true';
+    approve.querySelector('span').textContent = 'ATTENTION';
+    approve.setAttribute('aria-label', 'ATTENTION – Abschlusssong starten');
     if (!outro.paused) { outro.pause(); return; }
     approve.disabled = true;
     try {
@@ -154,13 +142,16 @@ STORY
     } finally { approve.disabled = false; }
   });
   outro.addEventListener('play', () => {
-    approve.dataset.activated = 'true';
+    enabled = false;
+    intro.pause();
+    updateVolume();
+    updateToggle();
     approve.setAttribute('aria-pressed', 'true');
-    approve.setAttribute('aria-label', 'Abschlusssong pausieren');
+    approve.setAttribute('aria-label', 'ATTENTION – Abschlusssong pausieren');
   });
   function resetOutro() {
     approve.setAttribute('aria-pressed', 'false');
-    approve.setAttribute('aria-label', 'Abschlusssong starten');
+    approve.setAttribute('aria-label', 'ATTENTION – Abschlusssong starten');
   }
   outro.addEventListener('pause', resetOutro);
   outro.addEventListener('ended', resetOutro);

@@ -10,11 +10,17 @@ Früher hatte er Kai Hansen geheißen.
 
 HANSEN. So hatte es an der Wohnungstür seines Vaters gestanden, mit Kugelschreiber auf einen Streifen Pappe geschrieben. Das S war unten offen. Nach dem Umzug ins Pflegeheim hatte Kai das Schild abgeschraubt. Es lag noch in der Küchenschublade, zusammen mit den Schlüsseln, die nicht mehr passten.
 
-AXIOM//ZERO hatte Kai bei der Einstellung drei Namen angeboten.
-
-Kai Eck. Jan Ort. Tom Tal.
-
 Das Feld für die verantwortliche natürliche Person stammte aus einer alten Registerschnittstelle. Sieben Zeichen, einschließlich Leerzeichen. Ein längerer Name erforderte eine manuelle Zuordnung bei jeder neu gegründeten Gesellschaft.
+
+Die Agenten hatten festgestellt, dass Bewerber einer Änderung ihres Nachnamens eher zustimmten als einer Änderung ihres Vornamens. Die Vorauswahl bevorzugte deshalb kurze Vornamen.
+
+Kai war auch deshalb in die engere Auswahl gekommen, weil er Kai hieß.
+
+Bei der Einstellung hatte AXIOM//ZERO ihm drei Nachnamen angeboten.
+
+Eck. Ort. Tal.
+
+Kai durfte bleiben.
 
 „Sie könnten das Feld ändern“, hatte Kai gesagt.
 
@@ -113,7 +119,7 @@ Die drei Prüfpflichten betrafen seine Erreichbarkeit, eine Vertretungsvollmacht
 
 Welche Vorgänge Kai persönlich vorgelegt wurden, bestimmte ein Klassifikator. Dessen letzte Prüfung hatte ebenfalls keine persönliche Vorlage erfordert.
 
-Darunter befand sich eine grüne Schaltfläche.
+Darunter befand sich eine blaue Schaltfläche.
 
 **APPROVE**
 
